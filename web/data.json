@@ -1,0 +1,3362 @@
+{
+  "last_updated": "2026-03-18",
+  "period": {
+    "start": "2026-05-18",
+    "end": "2026-06-05"
+  },
+  "students": {
+    "d0a33c9d": {
+      "name": "Barbora Botoňková",
+      "school": "OA Holešovice",
+      "school_class": "",
+      "category": "",
+      "start": "2026-05-18",
+      "end": "2026-06-05",
+      "phone": "736199375",
+      "email": "",
+      "schedule": {
+        "2026-05-18": [
+          {
+            "time": "08:00-15:00",
+            "activity": "Gymnastika (ZŠ Eden)",
+            "type": "Sledování vzorové hodiny",
+            "organizer": "ZŠ Eden",
+            "contact": "Matejzík Filip a p.Hodbot"
+          }
+        ],
+        "2026-05-19": [
+          {
+            "time": "08:00-15:00",
+            "activity": "Mateřinka Cup",
+            "type": "Asistenční činnost",
+            "organizer": "CSR",
+            "contact": "Dominika Dvořáková"
+          }
+        ],
+        "2026-05-20": [
+          {
+            "time": "10:00-15:00",
+            "activity": "Fan shop",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Tomáš Semen"
+          },
+          {
+            "time": "13:00-14:00",
+            "activity": "Struktura SKS - z teorie do praxe",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Jan Procházka"
+          },
+          {
+            "time": "14:00-15:00",
+            "activity": "Propojení teorie a praxe v rámci obchodní korespondence, účetních dokladů, atd.",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Nečasová"
+          }
+        ],
+        "2026-05-21": [
+          {
+            "time": "08:00-15:00",
+            "activity": "2x45min školy",
+            "type": "Asistenční činnost",
+            "organizer": "CSR",
+            "contact": "Dominika Dvořáková"
+          }
+        ],
+        "2026-05-22": [
+          {
+            "time": "10:00-15:00",
+            "activity": "Fan shop",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Tomáš Semen"
+          },
+          {
+            "time": "13:00-15:00",
+            "activity": "Atletika",
+            "type": "Sledování vzorové hodiny",
+            "organizer": "SKS",
+            "contact": "Robo Leitl"
+          }
+        ],
+        "2026-05-25": [
+          {
+            "time": "08:00-15:00",
+            "activity": "nevidomí fanoušci prohlídka stadionu",
+            "type": "Asistenční činnost",
+            "organizer": "CSR",
+            "contact": "Dominika Dvořáková"
+          }
+        ],
+        "2026-05-26": [
+          {
+            "time": "10:00-15:00",
+            "activity": "Fan shop",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Tomáš Semen"
+          },
+          {
+            "time": "13:00-14:00",
+            "activity": "Marketing a komunikace online",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Patrik Jíra"
+          },
+          {
+            "time": "14:00-15:00",
+            "activity": "Fyzioterapie",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Pisarčík"
+          }
+        ],
+        "2026-05-27": [
+          {
+            "time": "10:00-15:00",
+            "activity": "Fan shop",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Tomáš Semen"
+          },
+          {
+            "time": "13:00-14:00",
+            "activity": "Organizace zápasů",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": ""
+          },
+          {
+            "time": "14:00-15:00",
+            "activity": "Účetnictví",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Klára Soukupová"
+          }
+        ],
+        "2026-05-28": [
+          {
+            "time": "09:00-13:00",
+            "activity": "Stříhání videí",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Ondřej Jura"
+          },
+          {
+            "time": "12:00-13:00",
+            "activity": "Ekonomické vedení Slavie - controling",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Jan Čadílek"
+          },
+          {
+            "time": "13:00-14:00",
+            "activity": "Angličtina",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "John Daves"
+          },
+          {
+            "time": "14:00-15:00",
+            "activity": "Představení SK Slavia Praha",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Martin Hladík"
+          }
+        ],
+        "2026-05-29": [
+          {
+            "time": "12:30-14:00",
+            "activity": "VYUČOVÁNÍ AJ/ TV",
+            "type": "vyučování",
+            "organizer": "ZŠ EDEN",
+            "contact": "Andrea Žemličková/Marcela Hladíková"
+          },
+          {
+            "time": "10:00-15:00",
+            "activity": "Fan shop",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Tomáš Semen"
+          },
+          {
+            "time": "14:30-15:00",
+            "activity": "úklid okolí/odpadků, Praha 10",
+            "type": "Asistenční činnost",
+            "organizer": "CSR",
+            "contact": "Dominika Dvořáková"
+          }
+        ],
+        "2026-06-01": [
+          {
+            "time": "10:00-15:00",
+            "activity": "Fan shop",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Tomáš Semen"
+          },
+          {
+            "time": "13:00-15:00",
+            "activity": "Stáž u trenérů výpomoc + náslech přednášek",
+            "type": "Absolvování přednášky/ Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Martin Vlk"
+          }
+        ],
+        "2026-06-02": [
+          {
+            "time": "10:00-15:00",
+            "activity": "Fan shop",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Tomáš Semen"
+          },
+          {
+            "time": "13:00-15:00",
+            "activity": "Stáž u trenérů výpomoc + náslech přednášek",
+            "type": "Absolvování přednášky/ Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Martin Vlk"
+          }
+        ],
+        "2026-06-03": [
+          {
+            "time": "10:00-15:00",
+            "activity": "Fan shop",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Tomáš Semen"
+          },
+          {
+            "time": "13:00-15:00",
+            "activity": "Stáž u trenérů výpomoc + náslech přednášek",
+            "type": "Absolvování přednášky/ Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Martin Vlk"
+          }
+        ],
+        "2026-06-04": [
+          {
+            "time": "10:00-15:00",
+            "activity": "Fan shop",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Tomáš Semen"
+          },
+          {
+            "time": "13:00-15:00",
+            "activity": "Stáž u trenérů výpomoc + náslech přednášek",
+            "type": "Absolvování přednášky/ Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Martin Vlk"
+          }
+        ],
+        "2026-06-05": [
+          {
+            "time": "09:00-13:00",
+            "activity": "Příprava na kempy",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Jan Dus"
+          }
+        ]
+      },
+      "stats": {
+        "total_hours": 102.0,
+        "total_days": 15,
+        "activities_count": 31
+      }
+    },
+    "f35a86d1": {
+      "name": "Šárka Doležalová",
+      "school": "OA Holešovice",
+      "school_class": "",
+      "category": "",
+      "start": "2026-05-18",
+      "end": "2026-06-05",
+      "phone": "604989624",
+      "email": "",
+      "schedule": {
+        "2026-05-18": [
+          {
+            "time": "08:00-15:00",
+            "activity": "Gymnastika (ZŠ Eden)",
+            "type": "Sledování vzorové hodiny",
+            "organizer": "ZŠ Eden",
+            "contact": "Matejzík Filip a p.Hodbot"
+          }
+        ],
+        "2026-05-19": [
+          {
+            "time": "08:00-15:00",
+            "activity": "Mateřinka Cup",
+            "type": "Asistenční činnost",
+            "organizer": "CSR",
+            "contact": "Dominika Dvořáková"
+          }
+        ],
+        "2026-05-20": [
+          {
+            "time": "08:00-15:00",
+            "activity": "Atletika",
+            "type": "Sledování vzorové hodiny",
+            "organizer": "SKS",
+            "contact": "Robo Leitl"
+          }
+        ],
+        "2026-05-21": [
+          {
+            "time": "08:00-15:00",
+            "activity": "2x45min školy",
+            "type": "Asistenční činnost",
+            "organizer": "CSR",
+            "contact": "Dominika Dvořáková"
+          }
+        ],
+        "2026-05-22": [
+          {
+            "time": "10:00-15:00",
+            "activity": "Fan shop",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Tomáš Semen"
+          },
+          {
+            "time": "13:00-14:00",
+            "activity": "Struktura SKS - z teorie do praxe",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Jan Procházka"
+          },
+          {
+            "time": "14:00-15:00",
+            "activity": "Propojení teorie a praxe v rámci obchodní korespondence, účetních dokladů, atd.",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Nečasová"
+          }
+        ],
+        "2026-05-25": [
+          {
+            "time": "08:00-15:00",
+            "activity": "nevidomí fanoušci prohlídka stadionu",
+            "type": "Asistenční činnost",
+            "organizer": "CSR",
+            "contact": "Dominika Dvořáková"
+          }
+        ],
+        "2026-05-26": [
+          {
+            "time": "10:00-15:00",
+            "activity": "Fan shop",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Tomáš Semen"
+          },
+          {
+            "time": "13:00-14:00",
+            "activity": "Marketing a komunikace online",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Patrik Jíra"
+          },
+          {
+            "time": "14:00-15:00",
+            "activity": "Fyzioterapie",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Pisarčík"
+          }
+        ],
+        "2026-05-27": [
+          {
+            "time": "10:00-15:00",
+            "activity": "Fan shop",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Tomáš Semen"
+          },
+          {
+            "time": "13:00-14:00",
+            "activity": "Organizace zápasů",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": ""
+          },
+          {
+            "time": "14:00-15:00",
+            "activity": "Účetnictví",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Klára Soukupová"
+          }
+        ],
+        "2026-05-28": [
+          {
+            "time": "09:00-13:00",
+            "activity": "Stříhání videí",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Ondřej Jura"
+          },
+          {
+            "time": "12:00-13:00",
+            "activity": "Ekonomické vedení Slavie - controling",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Jan Čadílek"
+          },
+          {
+            "time": "13:00-14:00",
+            "activity": "Angličtina",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "John Daves"
+          },
+          {
+            "time": "14:00-15:00",
+            "activity": "Představení SK Slavia Praha",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Martin Hladík"
+          }
+        ],
+        "2026-05-29": [
+          {
+            "time": "12:30-14:00",
+            "activity": "VYUČOVÁNÍ AJ/ TV",
+            "type": "vyučování",
+            "organizer": "ZŠ EDEN",
+            "contact": "Andrea Žemličková/Marcela Hladíková"
+          },
+          {
+            "time": "10:00-15:00",
+            "activity": "Fan shop",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Tomáš Semen"
+          },
+          {
+            "time": "14:30-15:00",
+            "activity": "úklid okolí/odpadků, Praha 10",
+            "type": "Asistenční činnost",
+            "organizer": "CSR",
+            "contact": "Dominika Dvořáková"
+          }
+        ],
+        "2026-06-01": [
+          {
+            "time": "10:00-15:00",
+            "activity": "Fan shop",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Tomáš Semen"
+          },
+          {
+            "time": "13:00-15:00",
+            "activity": "Stáž u trenérů výpomoc + náslech přednášek",
+            "type": "Absolvování přednášky/ Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Martin Vlk"
+          }
+        ],
+        "2026-06-02": [
+          {
+            "time": "10:00-15:00",
+            "activity": "Fan shop",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Tomáš Semen"
+          },
+          {
+            "time": "13:00-15:00",
+            "activity": "Stáž u trenérů výpomoc + náslech přednášek",
+            "type": "Absolvování přednášky/ Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Martin Vlk"
+          }
+        ],
+        "2026-06-03": [
+          {
+            "time": "10:00-15:00",
+            "activity": "Fan shop",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Tomáš Semen"
+          },
+          {
+            "time": "13:00-15:00",
+            "activity": "Stáž u trenérů výpomoc + náslech přednášek",
+            "type": "Absolvování přednášky/ Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Martin Vlk"
+          }
+        ],
+        "2026-06-04": [
+          {
+            "time": "10:00-15:00",
+            "activity": "Fan shop",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Tomáš Semen"
+          },
+          {
+            "time": "13:00-15:00",
+            "activity": "Stáž u trenérů výpomoc + náslech přednášek",
+            "type": "Absolvování přednášky/ Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Martin Vlk"
+          }
+        ],
+        "2026-06-05": [
+          {
+            "time": "10:00-15:00",
+            "activity": "Fan shop",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Tomáš Semen"
+          }
+        ]
+      },
+      "stats": {
+        "total_hours": 103.0,
+        "total_days": 15,
+        "activities_count": 30
+      }
+    },
+    "6833b590": {
+      "name": "Ondřej Šitina",
+      "school": "SOŠ Jarov",
+      "school_class": "1MSA",
+      "category": "U16",
+      "start": "2026-05-26",
+      "end": "2026-06-05",
+      "phone": "",
+      "email": "",
+      "schedule": {
+        "2026-05-26": [
+          {
+            "time": "09:30-10:30",
+            "activity": "Školky (vedení tréninkové hodiny/jendotky ve školce)",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Andrea Žemličková"
+          },
+          {
+            "time": "09:00-10:00",
+            "activity": "Marketing a komunikace online",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Patrik Jíra"
+          },
+          {
+            "time": "10:00-11:00",
+            "activity": "Fyzioterapie",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Pisarčík"
+          },
+          {
+            "time": "11:00-12:00",
+            "activity": "Organizace zápasů",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": ""
+          },
+          {
+            "time": "12:00-13:00",
+            "activity": "Účetnictví",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Klára Soukupová"
+          },
+          {
+            "time": "13:00-14:00",
+            "activity": "Ekonomické vedení Slavie - controling",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Jan Čadílek"
+          },
+          {
+            "time": "14:00-15:00",
+            "activity": "Angličtina",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "John Daves"
+          }
+        ],
+        "2026-05-27": [
+          {
+            "time": "09:30-10:30",
+            "activity": "Školky (vedení tréninkové hodiny/jendotky ve školce)",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Andrea Žemličková"
+          },
+          {
+            "time": "09:00-10:00",
+            "activity": "Představení SK Slavia Praha",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Martin Hladík"
+          },
+          {
+            "time": "10:00-11:00",
+            "activity": "Struktura SKS - z teorie do praxe",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Jan Procházka"
+          },
+          {
+            "time": "11:00-12:00",
+            "activity": "Propojení teorie a praxe v rámci obchodní korespondence, účetních dokladů, atd.",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Nečasová"
+          },
+          {
+            "time": "12:00-15:00",
+            "activity": "úklid okolí/odpadků, Praha 10",
+            "type": "Asistenční činnost",
+            "organizer": "CSR",
+            "contact": "Dominika Dvořáková"
+          }
+        ],
+        "2026-05-28": [
+          {
+            "time": "08:00-15:00",
+            "activity": "2x45min školy",
+            "type": "Asistenční činnost",
+            "organizer": "CSR",
+            "contact": "Dominika Dvořáková"
+          }
+        ],
+        "2026-05-29": [
+          {
+            "time": "09:00-13:00",
+            "activity": "Stříhání videí",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Ondřej Jura"
+          },
+          {
+            "time": "12:00-15:00",
+            "activity": "úklid okolí/odpadků, Praha 10",
+            "type": "Asistenční činnost",
+            "organizer": "CSR",
+            "contact": "Dominika Dvořáková"
+          }
+        ],
+        "2026-06-01": [
+          {
+            "time": "08:00-15:00",
+            "activity": "Gymnastika (ZŠ Eden)",
+            "type": "Sledování vzorové hodiny",
+            "organizer": "ZŠ Eden",
+            "contact": "Matejzík Filip a p.Hodbot"
+          }
+        ],
+        "2026-06-02": [
+          {
+            "time": "08:00-15:00",
+            "activity": "Atletika",
+            "type": "Sledování vzorové hodiny",
+            "organizer": "SKS",
+            "contact": "Robo Leitl"
+          }
+        ],
+        "2026-06-03": [
+          {
+            "time": "08:00-15:00",
+            "activity": "Atletika",
+            "type": "Sledování vzorové hodiny",
+            "organizer": "SKS",
+            "contact": "Robo Leitl"
+          }
+        ],
+        "2026-06-04": [
+          {
+            "time": "08:00-15:00",
+            "activity": "Gymnastika (ZŠ Eden)",
+            "type": "Sledování vzorové hodiny",
+            "organizer": "ZŠ Eden",
+            "contact": "Matejzík Filip a p.Hodbot"
+          }
+        ],
+        "2026-06-05": [
+          {
+            "time": "10:00-15:00",
+            "activity": "Fan shop",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Tomáš Semen"
+          }
+        ]
+      },
+      "stats": {
+        "total_hours": 61.0,
+        "total_days": 9,
+        "activities_count": 20
+      }
+    },
+    "b1d22dd8": {
+      "name": "Tobiáš Čadek",
+      "school": "SOŠ Jarov",
+      "school_class": "1MSA",
+      "category": "U16",
+      "start": "2026-05-26",
+      "end": "2026-06-05",
+      "phone": "",
+      "email": "",
+      "schedule": {
+        "2026-05-26": [
+          {
+            "time": "09:30-10:30",
+            "activity": "Školky (vedení tréninkové hodiny/jendotky ve školce)",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Andrea Žemličková"
+          },
+          {
+            "time": "09:00-10:00",
+            "activity": "Marketing a komunikace online",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Patrik Jíra"
+          },
+          {
+            "time": "10:00-11:00",
+            "activity": "Fyzioterapie",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Pisarčík"
+          },
+          {
+            "time": "11:00-12:00",
+            "activity": "Organizace zápasů",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": ""
+          },
+          {
+            "time": "12:00-13:00",
+            "activity": "Účetnictví",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Klára Soukupová"
+          },
+          {
+            "time": "13:00-14:00",
+            "activity": "Ekonomické vedení Slavie - controling",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Jan Čadílek"
+          },
+          {
+            "time": "14:00-15:00",
+            "activity": "Angličtina",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "John Daves"
+          }
+        ],
+        "2026-05-27": [
+          {
+            "time": "09:30-10:30",
+            "activity": "Školky (vedení tréninkové hodiny/jendotky ve školce)",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Andrea Žemličková"
+          },
+          {
+            "time": "09:00-10:00",
+            "activity": "Představení SK Slavia Praha",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Martin Hladík"
+          },
+          {
+            "time": "10:00-11:00",
+            "activity": "Struktura SKS - z teorie do praxe",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Jan Procházka"
+          },
+          {
+            "time": "11:00-12:00",
+            "activity": "Propojení teorie a praxe v rámci obchodní korespondence, účetních dokladů, atd.",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Nečasová"
+          },
+          {
+            "time": "12:00-15:00",
+            "activity": "úklid okolí/odpadků, Praha 10",
+            "type": "Asistenční činnost",
+            "organizer": "CSR",
+            "contact": "Dominika Dvořáková"
+          }
+        ],
+        "2026-05-28": [
+          {
+            "time": "08:00-15:00",
+            "activity": "2x45min školy",
+            "type": "Asistenční činnost",
+            "organizer": "CSR",
+            "contact": "Dominika Dvořáková"
+          }
+        ],
+        "2026-05-29": [
+          {
+            "time": "09:00-13:00",
+            "activity": "Stříhání videí",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Ondřej Jura"
+          },
+          {
+            "time": "12:00-15:00",
+            "activity": "úklid okolí/odpadků, Praha 10",
+            "type": "Asistenční činnost",
+            "organizer": "CSR",
+            "contact": "Dominika Dvořáková"
+          }
+        ],
+        "2026-06-01": [
+          {
+            "time": "08:00-15:00",
+            "activity": "Gymnastika (ZŠ Eden)",
+            "type": "Sledování vzorové hodiny",
+            "organizer": "ZŠ Eden",
+            "contact": "Matejzík Filip a p.Hodbot"
+          }
+        ],
+        "2026-06-02": [
+          {
+            "time": "08:00-15:00",
+            "activity": "Atletika",
+            "type": "Sledování vzorové hodiny",
+            "organizer": "SKS",
+            "contact": "Robo Leitl"
+          }
+        ],
+        "2026-06-03": [
+          {
+            "time": "08:00-15:00",
+            "activity": "Atletika",
+            "type": "Sledování vzorové hodiny",
+            "organizer": "SKS",
+            "contact": "Robo Leitl"
+          }
+        ],
+        "2026-06-04": [
+          {
+            "time": "08:00-15:00",
+            "activity": "Atletika",
+            "type": "Sledování vzorové hodiny",
+            "organizer": "SKS",
+            "contact": "Robo Leitl"
+          }
+        ],
+        "2026-06-05": [
+          {
+            "time": "08:00-15:00",
+            "activity": "Atletika",
+            "type": "Sledování vzorové hodiny",
+            "organizer": "SKS",
+            "contact": "Robo Leitl"
+          }
+        ]
+      },
+      "stats": {
+        "total_hours": 63.0,
+        "total_days": 9,
+        "activities_count": 20
+      }
+    },
+    "b25cf5e9": {
+      "name": "Štěpán Chaluš",
+      "school": "SOŠ Jarov",
+      "school_class": "3MSA",
+      "category": "U20",
+      "start": "2026-05-26",
+      "end": "2026-06-05",
+      "phone": "",
+      "email": "",
+      "schedule": {
+        "2026-05-26": [
+          {
+            "time": "09:30-10:30",
+            "activity": "Školky (vedení tréninkové hodiny/jendotky ve školce)",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Andrea Žemličková"
+          },
+          {
+            "time": "09:00-10:00",
+            "activity": "Marketing a komunikace online",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Patrik Jíra"
+          },
+          {
+            "time": "10:00-11:00",
+            "activity": "Fyzioterapie",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Pisarčík"
+          },
+          {
+            "time": "11:00-12:00",
+            "activity": "Organizace zápasů",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": ""
+          },
+          {
+            "time": "12:00-13:00",
+            "activity": "Účetnictví",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Klára Soukupová"
+          },
+          {
+            "time": "13:00-14:00",
+            "activity": "Ekonomické vedení Slavie - controling",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Jan Čadílek"
+          },
+          {
+            "time": "14:00-15:00",
+            "activity": "Angličtina",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "John Daves"
+          }
+        ],
+        "2026-05-27": [
+          {
+            "time": "09:30-10:30",
+            "activity": "Školky (vedení tréninkové hodiny/jendotky ve školce)",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Andrea Žemličková"
+          },
+          {
+            "time": "09:00-10:00",
+            "activity": "Představení SK Slavia Praha",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Martin Hladík"
+          },
+          {
+            "time": "10:00-11:00",
+            "activity": "Struktura SKS - z teorie do praxe",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Jan Procházka"
+          },
+          {
+            "time": "11:00-12:00",
+            "activity": "Propojení teorie a praxe v rámci obchodní korespondence, účetních dokladů, atd.",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Nečasová"
+          },
+          {
+            "time": "12:00-15:00",
+            "activity": "úklid okolí/odpadků, Praha 10",
+            "type": "Asistenční činnost",
+            "organizer": "CSR",
+            "contact": "Dominika Dvořáková"
+          }
+        ],
+        "2026-05-28": [
+          {
+            "time": "08:00-15:00",
+            "activity": "2x45min školy",
+            "type": "Asistenční činnost",
+            "organizer": "CSR",
+            "contact": "Dominika Dvořáková"
+          }
+        ],
+        "2026-05-29": [
+          {
+            "time": "12:30-14:00",
+            "activity": "VYUČOVÁNÍ AJ/ TV",
+            "type": "vyučování",
+            "organizer": "ZŠ EDEN",
+            "contact": "Andrea Žemličková/Marcela Hladíková"
+          },
+          {
+            "time": "09:30-10:30",
+            "activity": "Školky (vedení tréninkové hodiny/jendotky ve školce)",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Andrea Žemličková"
+          },
+          {
+            "time": "10:30-15:00",
+            "activity": "úklid okolí/odpadků, Praha 10",
+            "type": "Asistenční činnost",
+            "organizer": "CSR",
+            "contact": "Dominika Dvořáková"
+          }
+        ],
+        "2026-06-01": [
+          {
+            "time": "08:00-15:00",
+            "activity": "Atletika",
+            "type": "Sledování vzorové hodiny",
+            "organizer": "SKS",
+            "contact": "Robo Leitl"
+          }
+        ],
+        "2026-06-02": [
+          {
+            "time": "08:00-15:00",
+            "activity": "Gymnastika (ZŠ Eden)",
+            "type": "Sledování vzorové hodiny",
+            "organizer": "ZŠ Eden",
+            "contact": "Matejzík Filip a p.Hodbot"
+          }
+        ],
+        "2026-06-03": [
+          {
+            "time": "08:00-15:00",
+            "activity": "Fotbalové dovednosti",
+            "type": "Sledování vzorové hodiny",
+            "organizer": "SKS",
+            "contact": "Lukáš Kuhn"
+          }
+        ],
+        "2026-06-04": [
+          {
+            "time": "09:00-13:00",
+            "activity": "Příprava na kempy",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Jan Dus"
+          },
+          {
+            "time": "12:00-15:00",
+            "activity": "Stáž u trenérů výpomoc + náslech přednášek",
+            "type": "Absolvování přednášky/ Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Martin Vlk"
+          }
+        ],
+        "2026-06-05": [
+          {
+            "time": "08:00-15:00",
+            "activity": "Atletika",
+            "type": "Sledování vzorové hodiny",
+            "organizer": "SKS",
+            "contact": "Robo Leitl"
+          }
+        ]
+      },
+      "stats": {
+        "total_hours": 63.0,
+        "total_days": 9,
+        "activities_count": 22
+      }
+    },
+    "ebdeb1f2": {
+      "name": "Ondřej Mašek",
+      "school": "SOŠ Jarov",
+      "school_class": "2MSA",
+      "category": "U19",
+      "start": "2026-05-26",
+      "end": "2026-06-05",
+      "phone": "",
+      "email": "",
+      "schedule": {
+        "2026-05-26": [
+          {
+            "time": "09:30-10:30",
+            "activity": "Školky (vedení tréninkové hodiny/jendotky ve školce)",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Andrea Žemličková"
+          },
+          {
+            "time": "09:00-10:00",
+            "activity": "Marketing a komunikace online",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Patrik Jíra"
+          },
+          {
+            "time": "10:00-11:00",
+            "activity": "Fyzioterapie",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Pisarčík"
+          },
+          {
+            "time": "11:00-12:00",
+            "activity": "Organizace zápasů",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": ""
+          },
+          {
+            "time": "12:00-13:00",
+            "activity": "Účetnictví",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Klára Soukupová"
+          },
+          {
+            "time": "13:00-14:00",
+            "activity": "Ekonomické vedení Slavie - controling",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Jan Čadílek"
+          },
+          {
+            "time": "14:00-15:00",
+            "activity": "Angličtina",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "John Daves"
+          }
+        ],
+        "2026-05-27": [
+          {
+            "time": "09:30-10:30",
+            "activity": "Školky (vedení tréninkové hodiny/jendotky ve školce)",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Andrea Žemličková"
+          },
+          {
+            "time": "09:00-10:00",
+            "activity": "Představení SK Slavia Praha",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Martin Hladík"
+          },
+          {
+            "time": "10:00-11:00",
+            "activity": "Struktura SKS - z teorie do praxe",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Jan Procházka"
+          },
+          {
+            "time": "11:00-12:00",
+            "activity": "Propojení teorie a praxe v rámci obchodní korespondence, účetních dokladů, atd.",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Nečasová"
+          },
+          {
+            "time": "12:00-15:00",
+            "activity": "úklid okolí/odpadků, Praha 10",
+            "type": "Asistenční činnost",
+            "organizer": "CSR",
+            "contact": "Dominika Dvořáková"
+          }
+        ],
+        "2026-05-28": [
+          {
+            "time": "10:00-15:00",
+            "activity": "Fan shop",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Tomáš Semen"
+          },
+          {
+            "time": "13:00-15:00",
+            "activity": "úklid okolí/odpadků, Praha 10",
+            "type": "Asistenční činnost",
+            "organizer": "CSR",
+            "contact": "Dominika Dvořáková"
+          }
+        ],
+        "2026-05-29": [
+          {
+            "time": "12:30-14:00",
+            "activity": "VYUČOVÁNÍ AJ/ TV",
+            "type": "vyučování",
+            "organizer": "ZŠ EDEN",
+            "contact": "Andrea Žemličková/Marcela Hladíková"
+          },
+          {
+            "time": "09:30-10:30",
+            "activity": "Školky (vedení tréninkové hodiny/jendotky ve školce)",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Andrea Žemličková"
+          },
+          {
+            "time": "10:30-15:00",
+            "activity": "úklid okolí/odpadků, Praha 10",
+            "type": "Asistenční činnost",
+            "organizer": "CSR",
+            "contact": "Dominika Dvořáková"
+          }
+        ],
+        "2026-06-01": [
+          {
+            "time": "08:00-15:00",
+            "activity": "Atletika",
+            "type": "Sledování vzorové hodiny",
+            "organizer": "SKS",
+            "contact": "Robo Leitl"
+          }
+        ],
+        "2026-06-02": [
+          {
+            "time": "08:00-15:00",
+            "activity": "Gymnastika (ZŠ Eden)",
+            "type": "Sledování vzorové hodiny",
+            "organizer": "ZŠ Eden",
+            "contact": "Matejzík Filip a p.Hodbot"
+          }
+        ],
+        "2026-06-03": [
+          {
+            "time": "08:00-15:00",
+            "activity": "Fotbalové dovednosti",
+            "type": "Sledování vzorové hodiny",
+            "organizer": "SKS",
+            "contact": "Lukáš Kuhn"
+          }
+        ],
+        "2026-06-04": [
+          {
+            "time": "09:00-13:00",
+            "activity": "Příprava na kempy",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Jan Dus"
+          },
+          {
+            "time": "12:00-15:00",
+            "activity": "Stáž u trenérů výpomoc + náslech přednášek",
+            "type": "Absolvování přednášky/ Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Martin Vlk"
+          }
+        ],
+        "2026-06-05": [
+          {
+            "time": "08:00-15:00",
+            "activity": "Fotbalové dovednosti",
+            "type": "Sledování vzorové hodiny",
+            "organizer": "SKS",
+            "contact": "Lukáš Kuhn"
+          }
+        ]
+      },
+      "stats": {
+        "total_hours": 63.0,
+        "total_days": 9,
+        "activities_count": 23
+      }
+    },
+    "93629ed6": {
+      "name": "David Barčot",
+      "school": "SOŠ Jarov",
+      "school_class": "2MSA",
+      "category": "U19",
+      "start": "2026-05-26",
+      "end": "2026-06-05",
+      "phone": "",
+      "email": "",
+      "schedule": {
+        "2026-05-26": [
+          {
+            "time": "09:30-10:30",
+            "activity": "Školky (vedení tréninkové hodiny/jendotky ve školce)",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Andrea Žemličková"
+          },
+          {
+            "time": "09:00-10:00",
+            "activity": "Marketing a komunikace online",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Patrik Jíra"
+          },
+          {
+            "time": "10:00-11:00",
+            "activity": "Fyzioterapie",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Pisarčík"
+          },
+          {
+            "time": "11:00-12:00",
+            "activity": "Organizace zápasů",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": ""
+          },
+          {
+            "time": "12:00-13:00",
+            "activity": "Účetnictví",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Klára Soukupová"
+          },
+          {
+            "time": "13:00-14:00",
+            "activity": "Ekonomické vedení Slavie - controling",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Jan Čadílek"
+          },
+          {
+            "time": "14:00-15:00",
+            "activity": "Angličtina",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "John Daves"
+          }
+        ],
+        "2026-05-27": [
+          {
+            "time": "09:30-10:30",
+            "activity": "Školky (vedení tréninkové hodiny/jendotky ve školce)",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Andrea Žemličková"
+          },
+          {
+            "time": "09:00-10:00",
+            "activity": "Představení SK Slavia Praha",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Martin Hladík"
+          },
+          {
+            "time": "10:00-11:00",
+            "activity": "Struktura SKS - z teorie do praxe",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Jan Procházka"
+          },
+          {
+            "time": "11:00-12:00",
+            "activity": "Propojení teorie a praxe v rámci obchodní korespondence, účetních dokladů, atd.",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Nečasová"
+          },
+          {
+            "time": "12:00-15:00",
+            "activity": "úklid okolí/odpadků, Praha 10",
+            "type": "Asistenční činnost",
+            "organizer": "CSR",
+            "contact": "Dominika Dvořáková"
+          }
+        ],
+        "2026-05-28": [
+          {
+            "time": "10:00-15:00",
+            "activity": "Fan shop",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Tomáš Semen"
+          },
+          {
+            "time": "13:00-15:00",
+            "activity": "úklid okolí/odpadků, Praha 10",
+            "type": "Asistenční činnost",
+            "organizer": "CSR",
+            "contact": "Dominika Dvořáková"
+          }
+        ],
+        "2026-05-29": [
+          {
+            "time": "12:30-14:00",
+            "activity": "VYUČOVÁNÍ AJ/ TV",
+            "type": "vyučování",
+            "organizer": "ZŠ EDEN",
+            "contact": "Andrea Žemličková/Marcela Hladíková"
+          },
+          {
+            "time": "09:30-10:30",
+            "activity": "Školky (vedení tréninkové hodiny/jendotky ve školce)",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Andrea Žemličková"
+          },
+          {
+            "time": "10:30-15:00",
+            "activity": "úklid okolí/odpadků, Praha 10",
+            "type": "Asistenční činnost",
+            "organizer": "CSR",
+            "contact": "Dominika Dvořáková"
+          }
+        ],
+        "2026-06-01": [
+          {
+            "time": "08:00-15:00",
+            "activity": "Fotbalové dovednosti",
+            "type": "Sledování vzorové hodiny",
+            "organizer": "SKS",
+            "contact": "Lukáš Kuhn"
+          }
+        ],
+        "2026-06-02": [
+          {
+            "time": "08:00-15:00",
+            "activity": "Fotbalové dovednosti",
+            "type": "Sledování vzorové hodiny",
+            "organizer": "SKS",
+            "contact": "Lukáš Kuhn"
+          }
+        ],
+        "2026-06-03": [
+          {
+            "time": "08:00-15:00",
+            "activity": "Gymnastika (ZŠ Eden)",
+            "type": "Sledování vzorové hodiny",
+            "organizer": "ZŠ Eden",
+            "contact": "Matejzík Filip a p.Hodbot"
+          }
+        ],
+        "2026-06-04": [
+          {
+            "time": "09:00-13:00",
+            "activity": "Příprava na kempy",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Jan Dus"
+          },
+          {
+            "time": "12:00-15:00",
+            "activity": "Stáž u trenérů výpomoc + náslech přednášek",
+            "type": "Absolvování přednášky/ Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Martin Vlk"
+          }
+        ],
+        "2026-06-05": [
+          {
+            "time": "08:00-15:00",
+            "activity": "Fotbalové dovednosti",
+            "type": "Sledování vzorové hodiny",
+            "organizer": "SKS",
+            "contact": "Lukáš Kuhn"
+          }
+        ]
+      },
+      "stats": {
+        "total_hours": 63.0,
+        "total_days": 9,
+        "activities_count": 23
+      }
+    },
+    "3bf15b02": {
+      "name": "Matyáš Tomek",
+      "school": "SOŠ Jarov",
+      "school_class": "2MSA",
+      "category": "U20",
+      "start": "2026-05-26",
+      "end": "2026-06-05",
+      "phone": "",
+      "email": "",
+      "schedule": {
+        "2026-05-26": [
+          {
+            "time": "09:30-10:30",
+            "activity": "Školky (vedení tréninkové hodiny/jendotky ve školce)",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Andrea Žemličková"
+          },
+          {
+            "time": "09:00-10:00",
+            "activity": "Marketing a komunikace online",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Patrik Jíra"
+          },
+          {
+            "time": "10:00-11:00",
+            "activity": "Fyzioterapie",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Pisarčík"
+          },
+          {
+            "time": "11:00-12:00",
+            "activity": "Organizace zápasů",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": ""
+          },
+          {
+            "time": "12:00-13:00",
+            "activity": "Účetnictví",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Klára Soukupová"
+          },
+          {
+            "time": "13:00-14:00",
+            "activity": "Ekonomické vedení Slavie - controling",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Jan Čadílek"
+          },
+          {
+            "time": "14:00-15:00",
+            "activity": "Angličtina",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "John Daves"
+          }
+        ],
+        "2026-05-27": [
+          {
+            "time": "09:30-10:30",
+            "activity": "Školky (vedení tréninkové hodiny/jendotky ve školce)",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Andrea Žemličková"
+          },
+          {
+            "time": "09:00-10:00",
+            "activity": "Představení SK Slavia Praha",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Martin Hladík"
+          },
+          {
+            "time": "10:00-11:00",
+            "activity": "Struktura SKS - z teorie do praxe",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Jan Procházka"
+          },
+          {
+            "time": "11:00-12:00",
+            "activity": "Propojení teorie a praxe v rámci obchodní korespondence, účetních dokladů, atd.",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Nečasová"
+          },
+          {
+            "time": "12:00-15:00",
+            "activity": "úklid okolí/odpadků, Praha 10",
+            "type": "Asistenční činnost",
+            "organizer": "CSR",
+            "contact": "Dominika Dvořáková"
+          }
+        ],
+        "2026-05-28": [
+          {
+            "time": "09:30-10:30",
+            "activity": "Školky (vedení tréninkové hodiny/jendotky ve školce)",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Andrea Žemličková"
+          },
+          {
+            "time": "09:00-15:00",
+            "activity": "úklid okolí/odpadků, Praha 10",
+            "type": "Asistenční činnost",
+            "organizer": "CSR",
+            "contact": "Dominika Dvořáková"
+          }
+        ],
+        "2026-05-29": [
+          {
+            "time": "12:30-14:00",
+            "activity": "VYUČOVÁNÍ AJ/ TV",
+            "type": "vyučování",
+            "organizer": "ZŠ EDEN",
+            "contact": "Andrea Žemličková/Marcela Hladíková"
+          },
+          {
+            "time": "09:30-10:30",
+            "activity": "Školky (vedení tréninkové hodiny/jendotky ve školce)",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Andrea Žemličková"
+          },
+          {
+            "time": "10:30-15:00",
+            "activity": "úklid okolí/odpadků, Praha 10",
+            "type": "Asistenční činnost",
+            "organizer": "CSR",
+            "contact": "Dominika Dvořáková"
+          }
+        ],
+        "2026-06-01": [
+          {
+            "time": "08:00-15:00",
+            "activity": "Fotbalové dovednosti",
+            "type": "Sledování vzorové hodiny",
+            "organizer": "SKS",
+            "contact": "Lukáš Kuhn"
+          }
+        ],
+        "2026-06-02": [
+          {
+            "time": "08:00-15:00",
+            "activity": "Fotbalové dovednosti",
+            "type": "Sledování vzorové hodiny",
+            "organizer": "SKS",
+            "contact": "Lukáš Kuhn"
+          }
+        ],
+        "2026-06-03": [
+          {
+            "time": "08:00-15:00",
+            "activity": "Gymnastika (ZŠ Eden)",
+            "type": "Sledování vzorové hodiny",
+            "organizer": "ZŠ Eden",
+            "contact": "Matejzík Filip a p.Hodbot"
+          }
+        ],
+        "2026-06-04": [
+          {
+            "time": "09:00-13:00",
+            "activity": "Příprava na kempy",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Jan Dus"
+          },
+          {
+            "time": "12:00-15:00",
+            "activity": "Stáž u trenérů výpomoc + náslech přednášek",
+            "type": "Absolvování přednášky/ Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Martin Vlk"
+          }
+        ]
+      },
+      "stats": {
+        "total_hours": 56.0,
+        "total_days": 8,
+        "activities_count": 22
+      }
+    },
+    "29057e86": {
+      "name": "Adam Paar",
+      "school": "SOŠ Jarov",
+      "school_class": "3MSA",
+      "category": "U20",
+      "start": "2026-05-26",
+      "end": "2026-06-05",
+      "phone": "",
+      "email": "",
+      "schedule": {
+        "2026-05-26": [
+          {
+            "time": "09:30-10:30",
+            "activity": "Školky (vedení tréninkové hodiny/jendotky ve školce)",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Andrea Žemličková"
+          },
+          {
+            "time": "09:00-10:00",
+            "activity": "Marketing a komunikace online",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Patrik Jíra"
+          },
+          {
+            "time": "10:00-11:00",
+            "activity": "Fyzioterapie",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Pisarčík"
+          },
+          {
+            "time": "11:00-12:00",
+            "activity": "Organizace zápasů",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": ""
+          },
+          {
+            "time": "12:00-13:00",
+            "activity": "Účetnictví",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Klára Soukupová"
+          },
+          {
+            "time": "13:00-14:00",
+            "activity": "Ekonomické vedení Slavie - controling",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Jan Čadílek"
+          },
+          {
+            "time": "14:00-15:00",
+            "activity": "Angličtina",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "John Daves"
+          }
+        ],
+        "2026-05-27": [
+          {
+            "time": "09:30-10:30",
+            "activity": "Školky (vedení tréninkové hodiny/jendotky ve školce)",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Andrea Žemličková"
+          },
+          {
+            "time": "09:00-10:00",
+            "activity": "Představení SK Slavia Praha",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Martin Hladík"
+          },
+          {
+            "time": "10:00-11:00",
+            "activity": "Struktura SKS - z teorie do praxe",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Jan Procházka"
+          },
+          {
+            "time": "11:00-12:00",
+            "activity": "Propojení teorie a praxe v rámci obchodní korespondence, účetních dokladů, atd.",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Nečasová"
+          },
+          {
+            "time": "12:00-15:00",
+            "activity": "úklid okolí/odpadků, Praha 10",
+            "type": "Asistenční činnost",
+            "organizer": "CSR",
+            "contact": "Dominika Dvořáková"
+          }
+        ],
+        "2026-05-28": [
+          {
+            "time": "09:30-10:30",
+            "activity": "Školky (vedení tréninkové hodiny/jendotky ve školce)",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Andrea Žemličková"
+          },
+          {
+            "time": "09:00-15:00",
+            "activity": "úklid okolí/odpadků, Praha 10",
+            "type": "Asistenční činnost",
+            "organizer": "CSR",
+            "contact": "Dominika Dvořáková"
+          }
+        ],
+        "2026-05-29": [
+          {
+            "time": "12:30-14:00",
+            "activity": "VYUČOVÁNÍ AJ/ TV",
+            "type": "vyučování",
+            "organizer": "ZŠ EDEN",
+            "contact": "Andrea Žemličková/Marcela Hladíková"
+          },
+          {
+            "time": "09:30-10:30",
+            "activity": "Školky (vedení tréninkové hodiny/jendotky ve školce)",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Andrea Žemličková"
+          },
+          {
+            "time": "10:30-15:00",
+            "activity": "úklid okolí/odpadků, Praha 10",
+            "type": "Asistenční činnost",
+            "organizer": "CSR",
+            "contact": "Dominika Dvořáková"
+          }
+        ],
+        "2026-06-01": [
+          {
+            "time": "08:00-14:00",
+            "activity": "Stáž u trenérů výpomoc + náslech přednášek",
+            "type": "Absolvování přednášky/ Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Martin Vlk"
+          }
+        ],
+        "2026-06-02": [
+          {
+            "time": "08:00-14:00",
+            "activity": "Stáž u trenérů výpomoc + náslech přednášek",
+            "type": "Absolvování přednášky/ Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Martin Vlk"
+          }
+        ],
+        "2026-06-03": [
+          {
+            "time": "08:00-14:00",
+            "activity": "Stáž u trenérů výpomoc + náslech přednášek",
+            "type": "Absolvování přednášky/ Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Martin Vlk"
+          }
+        ],
+        "2026-06-04": [
+          {
+            "time": "09:00-13:00",
+            "activity": "Příprava na kempy",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Jan Dus"
+          },
+          {
+            "time": "12:00-15:00",
+            "activity": "Stáž u trenérů výpomoc + náslech přednášek",
+            "type": "Absolvování přednášky/ Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Martin Vlk"
+          }
+        ],
+        "2026-06-05": [
+          {
+            "time": "08:00-15:00",
+            "activity": "Gymnastika (ZŠ Eden)",
+            "type": "Sledování vzorové hodiny",
+            "organizer": "ZŠ Eden",
+            "contact": "Matejzík Filip a p.Hodbot"
+          }
+        ]
+      },
+      "stats": {
+        "total_hours": 60.0,
+        "total_days": 9,
+        "activities_count": 23
+      }
+    },
+    "c77c6a46": {
+      "name": "Amal Elgheriani",
+      "school": "SOŠ Jarov",
+      "school_class": "2MSB",
+      "category": "WU18",
+      "start": "2026-05-26",
+      "end": "2026-06-05",
+      "phone": "",
+      "email": "",
+      "schedule": {
+        "2026-05-26": [
+          {
+            "time": "09:30-10:30",
+            "activity": "Školky (vedení tréninkové hodiny/jendotky ve školce)",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Andrea Žemličková"
+          },
+          {
+            "time": "09:00-10:00",
+            "activity": "Marketing a komunikace online",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Patrik Jíra"
+          },
+          {
+            "time": "10:00-11:00",
+            "activity": "Fyzioterapie",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Pisarčík"
+          },
+          {
+            "time": "11:00-12:00",
+            "activity": "Organizace zápasů",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": ""
+          },
+          {
+            "time": "12:00-13:00",
+            "activity": "Účetnictví",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Klára Soukupová"
+          },
+          {
+            "time": "13:00-14:00",
+            "activity": "Ekonomické vedení Slavie - controling",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Jan Čadílek"
+          },
+          {
+            "time": "14:00-15:00",
+            "activity": "Angličtina",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "John Daves"
+          }
+        ],
+        "2026-05-27": [
+          {
+            "time": "09:30-10:30",
+            "activity": "Školky (vedení tréninkové hodiny/jendotky ve školce)",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Andrea Žemličková"
+          },
+          {
+            "time": "09:00-10:00",
+            "activity": "Představení SK Slavia Praha",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Martin Hladík"
+          },
+          {
+            "time": "10:00-11:00",
+            "activity": "Struktura SKS - z teorie do praxe",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Jan Procházka"
+          },
+          {
+            "time": "11:00-12:00",
+            "activity": "Propojení teorie a praxe v rámci obchodní korespondence, účetních dokladů, atd.",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Nečasová"
+          },
+          {
+            "time": "12:00-15:00",
+            "activity": "úklid okolí/odpadků, Praha 10",
+            "type": "Asistenční činnost",
+            "organizer": "CSR",
+            "contact": "Dominika Dvořáková"
+          }
+        ],
+        "2026-05-28": [
+          {
+            "time": "09:30-10:30",
+            "activity": "Školky (vedení tréninkové hodiny/jendotky ve školce)",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Andrea Žemličková"
+          },
+          {
+            "time": "09:00-15:00",
+            "activity": "úklid okolí/odpadků, Praha 10",
+            "type": "Asistenční činnost",
+            "organizer": "CSR",
+            "contact": "Dominika Dvořáková"
+          }
+        ],
+        "2026-05-29": [
+          {
+            "time": "12:30-14:00",
+            "activity": "VYUČOVÁNÍ AJ/ TV",
+            "type": "vyučování",
+            "organizer": "ZŠ EDEN",
+            "contact": "Andrea Žemličková/Marcela Hladíková"
+          },
+          {
+            "time": "09:30-10:30",
+            "activity": "Školky (vedení tréninkové hodiny/jendotky ve školce)",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Andrea Žemličková"
+          },
+          {
+            "time": "10:30-15:00",
+            "activity": "úklid okolí/odpadků, Praha 10",
+            "type": "Asistenční činnost",
+            "organizer": "CSR",
+            "contact": "Dominika Dvořáková"
+          }
+        ],
+        "2026-06-01": [
+          {
+            "time": "08:00-14:00",
+            "activity": "Stáž u trenérů výpomoc + náslech přednášek",
+            "type": "Absolvování přednášky/ Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Martin Vlk"
+          }
+        ],
+        "2026-06-02": [
+          {
+            "time": "08:00-14:00",
+            "activity": "Stáž u trenérů výpomoc + náslech přednášek",
+            "type": "Absolvování přednášky/ Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Martin Vlk"
+          }
+        ],
+        "2026-06-03": [
+          {
+            "time": "08:00-14:00",
+            "activity": "Stáž u trenérů výpomoc + náslech přednášek",
+            "type": "Absolvování přednášky/ Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Martin Vlk"
+          }
+        ],
+        "2026-06-04": [
+          {
+            "time": "09:00-13:00",
+            "activity": "Příprava na kempy",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Jan Dus"
+          },
+          {
+            "time": "12:00-15:00",
+            "activity": "Stáž u trenérů výpomoc + náslech přednášek",
+            "type": "Absolvování přednášky/ Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Martin Vlk"
+          }
+        ],
+        "2026-06-05": [
+          {
+            "time": "08:00-15:00",
+            "activity": "Gymnastika (ZŠ Eden)",
+            "type": "Sledování vzorové hodiny",
+            "organizer": "ZŠ Eden",
+            "contact": "Matejzík Filip a p.Hodbot"
+          }
+        ]
+      },
+      "stats": {
+        "total_hours": 60.0,
+        "total_days": 9,
+        "activities_count": 23
+      }
+    },
+    "9628cb79": {
+      "name": "Barbora Jurová",
+      "school": "SOŠ Jarov",
+      "school_class": "1MSB",
+      "category": "WU18",
+      "start": "2026-05-26",
+      "end": "2026-06-05",
+      "phone": "",
+      "email": "",
+      "schedule": {
+        "2026-05-26": [
+          {
+            "time": "08:00-15:00",
+            "activity": "Gymnastika (ZŠ Eden)",
+            "type": "Sledování vzorové hodiny",
+            "organizer": "ZŠ Eden",
+            "contact": "Matejzík Filip a p.Hodbot"
+          }
+        ],
+        "2026-05-27": [
+          {
+            "time": "08:00-15:00",
+            "activity": "Atletika",
+            "type": "Sledování vzorové hodiny",
+            "organizer": "SKS",
+            "contact": "Robo Leitl"
+          }
+        ],
+        "2026-05-28": [
+          {
+            "time": "09:30-10:30",
+            "activity": "Školky (vedení tréninkové hodiny/jendotky ve školce)",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Andrea Žemličková"
+          },
+          {
+            "time": "09:00-10:00",
+            "activity": "Marketing a komunikace online",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Patrik Jíra"
+          },
+          {
+            "time": "10:00-11:00",
+            "activity": "Fyzioterapie",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Pisarčík"
+          },
+          {
+            "time": "11:00-12:00",
+            "activity": "Organizace zápasů",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": ""
+          },
+          {
+            "time": "12:00-13:00",
+            "activity": "Účetnictví",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Klára Soukupová"
+          },
+          {
+            "time": "13:00-14:00",
+            "activity": "Ekonomické vedení Slavie - controling",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Jan Čadílek"
+          },
+          {
+            "time": "14:00-15:00",
+            "activity": "Angličtina",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "John Daves"
+          }
+        ],
+        "2026-05-29": [
+          {
+            "time": "12:30-14:00",
+            "activity": "VYUČOVÁNÍ AJ/ TV",
+            "type": "vyučování",
+            "organizer": "ZŠ EDEN",
+            "contact": "Andrea Žemličková/Marcela Hladíková"
+          },
+          {
+            "time": "09:30-10:30",
+            "activity": "Školky (vedení tréninkové hodiny/jendotky ve školce)",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Andrea Žemličková"
+          },
+          {
+            "time": "10:30-11:30",
+            "activity": "Představení SK Slavia Praha",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Martin Hladík"
+          },
+          {
+            "time": "11:30-12:30",
+            "activity": "Struktura SKS - z teorie do praxe",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Jan Procházka"
+          },
+          {
+            "time": "12:30-13:30",
+            "activity": "Propojení teorie a praxe v rámci obchodní korespondence, účetních dokladů, atd.",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Nečasová"
+          },
+          {
+            "time": "13:30-15:00",
+            "activity": "úklid okolí/odpadků, Praha 10",
+            "type": "Asistenční činnost",
+            "organizer": "CSR",
+            "contact": "Dominika Dvořáková"
+          }
+        ],
+        "2026-06-01": [
+          {
+            "time": "08:00-14:00",
+            "activity": "Stáž u trenérů výpomoc + náslech přednášek",
+            "type": "Absolvování přednášky/ Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Martin Vlk"
+          }
+        ],
+        "2026-06-02": [
+          {
+            "time": "08:00-14:00",
+            "activity": "Stáž u trenérů výpomoc + náslech přednášek",
+            "type": "Absolvování přednášky/ Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Martin Vlk"
+          }
+        ],
+        "2026-06-03": [
+          {
+            "time": "08:00-14:00",
+            "activity": "Stáž u trenérů výpomoc + náslech přednášek",
+            "type": "Absolvování přednášky/ Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Martin Vlk"
+          }
+        ],
+        "2026-06-04": [
+          {
+            "time": "08:00-15:00",
+            "activity": "Atletika",
+            "type": "Sledování vzorové hodiny",
+            "organizer": "SKS",
+            "contact": "Robo Leitl"
+          }
+        ],
+        "2026-06-05": [
+          {
+            "time": "09:00-13:00",
+            "activity": "Příprava na kempy",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Jan Dus"
+          }
+        ]
+      },
+      "stats": {
+        "total_hours": 57.0,
+        "total_days": 9,
+        "activities_count": 20
+      }
+    },
+    "6fb0d30e": {
+      "name": "Ellen Eiseltová",
+      "school": "SOŠ Jarov",
+      "school_class": "2 MSB",
+      "category": "WU18",
+      "start": "2026-05-26",
+      "end": "2026-06-05",
+      "phone": "",
+      "email": "",
+      "schedule": {
+        "2026-05-26": [
+          {
+            "time": "08:00-15:00",
+            "activity": "Gymnastika (ZŠ Eden)",
+            "type": "Sledování vzorové hodiny",
+            "organizer": "ZŠ Eden",
+            "contact": "Matejzík Filip a p.Hodbot"
+          }
+        ],
+        "2026-05-27": [
+          {
+            "time": "08:00-15:00",
+            "activity": "Atletika",
+            "type": "Sledování vzorové hodiny",
+            "organizer": "SKS",
+            "contact": "Robo Leitl"
+          }
+        ],
+        "2026-05-28": [
+          {
+            "time": "09:30-10:30",
+            "activity": "Školky (vedení tréninkové hodiny/jendotky ve školce)",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Andrea Žemličková"
+          },
+          {
+            "time": "09:00-10:00",
+            "activity": "Marketing a komunikace online",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Patrik Jíra"
+          },
+          {
+            "time": "10:00-11:00",
+            "activity": "Fyzioterapie",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Pisarčík"
+          },
+          {
+            "time": "11:00-12:00",
+            "activity": "Organizace zápasů",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": ""
+          },
+          {
+            "time": "12:00-13:00",
+            "activity": "Účetnictví",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Klára Soukupová"
+          },
+          {
+            "time": "13:00-14:00",
+            "activity": "Ekonomické vedení Slavie - controling",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Jan Čadílek"
+          },
+          {
+            "time": "14:00-15:00",
+            "activity": "Angličtina",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "John Daves"
+          }
+        ],
+        "2026-05-29": [
+          {
+            "time": "12:30-14:00",
+            "activity": "VYUČOVÁNÍ AJ/ TV",
+            "type": "vyučování",
+            "organizer": "ZŠ EDEN",
+            "contact": "Andrea Žemličková/Marcela Hladíková"
+          },
+          {
+            "time": "09:30-10:30",
+            "activity": "Školky (vedení tréninkové hodiny/jendotky ve školce)",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Andrea Žemličková"
+          },
+          {
+            "time": "10:30-11:30",
+            "activity": "Představení SK Slavia Praha",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Martin Hladík"
+          },
+          {
+            "time": "11:30-12:30",
+            "activity": "Struktura SKS - z teorie do praxe",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Jan Procházka"
+          },
+          {
+            "time": "12:30-13:30",
+            "activity": "Propojení teorie a praxe v rámci obchodní korespondence, účetních dokladů, atd.",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Nečasová"
+          },
+          {
+            "time": "13:30-15:00",
+            "activity": "úklid okolí/odpadků, Praha 10",
+            "type": "Asistenční činnost",
+            "organizer": "CSR",
+            "contact": "Dominika Dvořáková"
+          }
+        ],
+        "2026-06-01": [
+          {
+            "time": "08:00-14:00",
+            "activity": "Stáž u trenérů výpomoc + náslech přednášek",
+            "type": "Absolvování přednášky/ Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Martin Vlk"
+          }
+        ],
+        "2026-06-02": [
+          {
+            "time": "08:00-14:00",
+            "activity": "Stáž u trenérů výpomoc + náslech přednášek",
+            "type": "Absolvování přednášky/ Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Martin Vlk"
+          }
+        ],
+        "2026-06-03": [
+          {
+            "time": "08:00-14:00",
+            "activity": "Stáž u trenérů výpomoc + náslech přednášek",
+            "type": "Absolvování přednášky/ Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Martin Vlk"
+          }
+        ],
+        "2026-06-04": [
+          {
+            "time": "08:00-15:00",
+            "activity": "Fotbalové dovednosti",
+            "type": "Sledování vzorové hodiny",
+            "organizer": "SKS",
+            "contact": "Lukáš Kuhn"
+          }
+        ],
+        "2026-06-05": [
+          {
+            "time": "09:00-13:00",
+            "activity": "Příprava na kempy",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Jan Dus"
+          }
+        ]
+      },
+      "stats": {
+        "total_hours": 57.0,
+        "total_days": 9,
+        "activities_count": 20
+      }
+    },
+    "d4e4c125": {
+      "name": "Jakub Molík",
+      "school": "SOŠ Jarov",
+      "school_class": "2MSA",
+      "category": "U19",
+      "start": "2026-05-26",
+      "end": "2026-06-05",
+      "phone": "",
+      "email": "",
+      "schedule": {
+        "2026-05-26": [
+          {
+            "time": "08:00-15:00",
+            "activity": "Atletika",
+            "type": "Sledování vzorové hodiny",
+            "organizer": "SKS",
+            "contact": "Robo Leitl"
+          }
+        ],
+        "2026-05-27": [
+          {
+            "time": "08:00-15:00",
+            "activity": "Gymnastika (ZŠ Eden)",
+            "type": "Sledování vzorové hodiny",
+            "organizer": "ZŠ Eden",
+            "contact": "Matejzík Filip a p.Hodbot"
+          }
+        ],
+        "2026-05-28": [
+          {
+            "time": "09:30-10:30",
+            "activity": "Školky (vedení tréninkové hodiny/jendotky ve školce)",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Andrea Žemličková"
+          },
+          {
+            "time": "09:00-10:00",
+            "activity": "Marketing a komunikace online",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Patrik Jíra"
+          },
+          {
+            "time": "10:00-11:00",
+            "activity": "Fyzioterapie",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Pisarčík"
+          },
+          {
+            "time": "11:00-12:00",
+            "activity": "Organizace zápasů",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": ""
+          },
+          {
+            "time": "12:00-13:00",
+            "activity": "Účetnictví",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Klára Soukupová"
+          },
+          {
+            "time": "13:00-14:00",
+            "activity": "Ekonomické vedení Slavie - controling",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Jan Čadílek"
+          },
+          {
+            "time": "14:00-15:00",
+            "activity": "Angličtina",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "John Daves"
+          }
+        ],
+        "2026-05-29": [
+          {
+            "time": "08:00-15:00",
+            "activity": "školy akce",
+            "type": "Asistenční činnost",
+            "organizer": "CSR",
+            "contact": "Dominika Dvořáková"
+          }
+        ],
+        "2026-06-01": [
+          {
+            "time": "08:00-09:00",
+            "activity": "Představení SK Slavia Praha",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Martin Hladík"
+          },
+          {
+            "time": "09:00-10:00",
+            "activity": "Struktura SKS - z teorie do praxe",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Jan Procházka"
+          },
+          {
+            "time": "10:00-11:00",
+            "activity": "Propojení teorie a praxe v rámci obchodní korespondence, účetních dokladů, atd.",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Nečasová"
+          },
+          {
+            "time": "11:00-15:00",
+            "activity": "Stáž u trenérů výpomoc + náslech přednášek",
+            "type": "Absolvování přednášky/ Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Martin Vlk"
+          }
+        ],
+        "2026-06-02": [
+          {
+            "time": "08:00-14:00",
+            "activity": "Stáž u trenérů výpomoc + náslech přednášek",
+            "type": "Absolvování přednášky/ Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Martin Vlk"
+          }
+        ],
+        "2026-06-03": [
+          {
+            "time": "08:00-14:00",
+            "activity": "Stáž u trenérů výpomoc + náslech přednášek",
+            "type": "Absolvování přednášky/ Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Martin Vlk"
+          }
+        ],
+        "2026-06-04": [
+          {
+            "time": "08:00-15:00",
+            "activity": "Fotbalové dovednosti",
+            "type": "Sledování vzorové hodiny",
+            "organizer": "SKS",
+            "contact": "Lukáš Kuhn"
+          }
+        ],
+        "2026-06-05": [
+          {
+            "time": "09:00-13:00",
+            "activity": "Příprava na kempy",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Jan Dus"
+          }
+        ]
+      },
+      "stats": {
+        "total_hours": 58.0,
+        "total_days": 9,
+        "activities_count": 18
+      }
+    },
+    "86d7bfeb": {
+      "name": "Jakub Kratochvíl",
+      "school": "SOŠ Jarov",
+      "school_class": "2MSA",
+      "category": "U19",
+      "start": "2026-05-26",
+      "end": "2026-06-05",
+      "phone": "",
+      "email": "",
+      "schedule": {
+        "2026-05-26": [
+          {
+            "time": "08:00-15:00",
+            "activity": "Atletika",
+            "type": "Sledování vzorové hodiny",
+            "organizer": "SKS",
+            "contact": "Robo Leitl"
+          }
+        ],
+        "2026-05-27": [
+          {
+            "time": "08:00-15:00",
+            "activity": "Gymnastika (ZŠ Eden)",
+            "type": "Sledování vzorové hodiny",
+            "organizer": "ZŠ Eden",
+            "contact": "Matejzík Filip a p.Hodbot"
+          }
+        ],
+        "2026-05-28": [
+          {
+            "time": "09:30-10:30",
+            "activity": "Školky (vedení tréninkové hodiny/jendotky ve školce)",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Andrea Žemličková"
+          },
+          {
+            "time": "09:00-10:00",
+            "activity": "Marketing a komunikace online",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Patrik Jíra"
+          },
+          {
+            "time": "10:00-11:00",
+            "activity": "Fyzioterapie",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Pisarčík"
+          },
+          {
+            "time": "11:00-12:00",
+            "activity": "Organizace zápasů",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": ""
+          },
+          {
+            "time": "12:00-13:00",
+            "activity": "Účetnictví",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Klára Soukupová"
+          },
+          {
+            "time": "13:00-14:00",
+            "activity": "Ekonomické vedení Slavie - controling",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Jan Čadílek"
+          },
+          {
+            "time": "14:00-15:00",
+            "activity": "Angličtina",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "John Daves"
+          }
+        ],
+        "2026-05-29": [
+          {
+            "time": "08:00-15:00",
+            "activity": "školy akce",
+            "type": "Asistenční činnost",
+            "organizer": "CSR",
+            "contact": "Dominika Dvořáková"
+          }
+        ],
+        "2026-06-01": [
+          {
+            "time": "08:00-09:00",
+            "activity": "Představení SK Slavia Praha",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Martin Hladík"
+          },
+          {
+            "time": "09:00-10:00",
+            "activity": "Struktura SKS - z teorie do praxe",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Jan Procházka"
+          },
+          {
+            "time": "10:00-11:00",
+            "activity": "Propojení teorie a praxe v rámci obchodní korespondence, účetních dokladů, atd.",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Nečasová"
+          },
+          {
+            "time": "11:00-15:00",
+            "activity": "Stáž u trenérů výpomoc + náslech přednášek",
+            "type": "Absolvování přednášky/ Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Martin Vlk"
+          }
+        ],
+        "2026-06-02": [
+          {
+            "time": "08:00-14:00",
+            "activity": "Stáž u trenérů výpomoc + náslech přednášek",
+            "type": "Absolvování přednášky/ Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Martin Vlk"
+          }
+        ],
+        "2026-06-03": [
+          {
+            "time": "08:00-14:00",
+            "activity": "Stáž u trenérů výpomoc + náslech přednášek",
+            "type": "Absolvování přednášky/ Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Martin Vlk"
+          }
+        ],
+        "2026-06-04": [
+          {
+            "time": "08:00-14:00",
+            "activity": "Stáž u trenérů výpomoc + náslech přednášek",
+            "type": "Absolvování přednášky/ Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Martin Vlk"
+          }
+        ],
+        "2026-06-05": [
+          {
+            "time": "09:00-13:00",
+            "activity": "Příprava na kempy",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Jan Dus"
+          }
+        ]
+      },
+      "stats": {
+        "total_hours": 57.0,
+        "total_days": 9,
+        "activities_count": 18
+      }
+    },
+    "4048f411": {
+      "name": "David Myslík",
+      "school": "SOŠ Jarov",
+      "school_class": "2",
+      "category": "?",
+      "start": "2026-05-26",
+      "end": "2026-06-05",
+      "phone": "775918928",
+      "email": "dave.myslik@gmail.com",
+      "schedule": {
+        "2026-05-26": [
+          {
+            "time": "08:00-15:00",
+            "activity": "Fotbalové dovednosti",
+            "type": "Sledování vzorové hodiny",
+            "organizer": "SKS",
+            "contact": "Lukáš Kuhn"
+          }
+        ],
+        "2026-05-27": [
+          {
+            "time": "08:00-15:00",
+            "activity": "Fotbalové dovednosti",
+            "type": "Sledování vzorové hodiny",
+            "organizer": "SKS",
+            "contact": "Lukáš Kuhn"
+          }
+        ],
+        "2026-05-28": [
+          {
+            "time": "09:30-10:30",
+            "activity": "Školky (vedení tréninkové hodiny/jendotky ve školce)",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Andrea Žemličková"
+          },
+          {
+            "time": "09:00-10:00",
+            "activity": "Marketing a komunikace online",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Patrik Jíra"
+          },
+          {
+            "time": "10:00-11:00",
+            "activity": "Fyzioterapie",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Pisarčík"
+          },
+          {
+            "time": "11:00-12:00",
+            "activity": "Organizace zápasů",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": ""
+          },
+          {
+            "time": "12:00-13:00",
+            "activity": "Účetnictví",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Klára Soukupová"
+          },
+          {
+            "time": "13:00-14:00",
+            "activity": "Ekonomické vedení Slavie - controling",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Jan Čadílek"
+          },
+          {
+            "time": "14:00-15:00",
+            "activity": "Angličtina",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "John Daves"
+          }
+        ],
+        "2026-05-29": [
+          {
+            "time": "08:00-15:00",
+            "activity": "školy akce",
+            "type": "Asistenční činnost",
+            "organizer": "CSR",
+            "contact": "Dominika Dvořáková"
+          }
+        ],
+        "2026-06-01": [
+          {
+            "time": "08:00-09:00",
+            "activity": "Představení SK Slavia Praha",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Martin Hladík"
+          },
+          {
+            "time": "09:00-10:00",
+            "activity": "Struktura SKS - z teorie do praxe",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Jan Procházka"
+          },
+          {
+            "time": "10:00-11:00",
+            "activity": "Propojení teorie a praxe v rámci obchodní korespondence, účetních dokladů, atd.",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Nečasová"
+          },
+          {
+            "time": "11:00-15:00",
+            "activity": "Stáž u trenérů výpomoc + náslech přednášek",
+            "type": "Absolvování přednášky/ Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Martin Vlk"
+          }
+        ],
+        "2026-06-02": [
+          {
+            "time": "08:00-14:00",
+            "activity": "Stáž u trenérů výpomoc + náslech přednášek",
+            "type": "Absolvování přednášky/ Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Martin Vlk"
+          }
+        ],
+        "2026-06-03": [
+          {
+            "time": "08:00-14:00",
+            "activity": "Stáž u trenérů výpomoc + náslech přednášek",
+            "type": "Absolvování přednášky/ Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Martin Vlk"
+          }
+        ],
+        "2026-06-04": [
+          {
+            "time": "08:00-15:00",
+            "activity": "Gymnastika (ZŠ Eden)",
+            "type": "Sledování vzorové hodiny",
+            "organizer": "ZŠ Eden",
+            "contact": "Matejzík Filip a p.Hodbot"
+          }
+        ],
+        "2026-06-05": [
+          {
+            "time": "09:00-13:00",
+            "activity": "Příprava na kempy",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Jan Dus"
+          }
+        ]
+      },
+      "stats": {
+        "total_hours": 58.0,
+        "total_days": 9,
+        "activities_count": 18
+      }
+    },
+    "dddbcdd9": {
+      "name": "Adam Šafr",
+      "school": "Profit",
+      "school_class": "1. rocnik",
+      "category": "U16",
+      "start": "2026-05-18",
+      "end": "2026-05-29",
+      "phone": "",
+      "email": "",
+      "schedule": {
+        "2026-05-18": [
+          {
+            "time": "10:00-15:00",
+            "activity": "Fan shop",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Tomáš Semen"
+          },
+          {
+            "time": "13:00-14:00",
+            "activity": "Marketing a komunikace online",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Patrik Jíra"
+          },
+          {
+            "time": "14:00-15:00",
+            "activity": "Fyzioterapie",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Pisarčík"
+          }
+        ],
+        "2026-05-19": [
+          {
+            "time": "08:00-15:00",
+            "activity": "Mateřinka Cup",
+            "type": "Asistenční činnost",
+            "organizer": "CSR",
+            "contact": "Dominika Dvořáková"
+          }
+        ],
+        "2026-05-20": [
+          {
+            "time": "08:00-15:00",
+            "activity": "Gymnastika (ZŠ Eden)",
+            "type": "Sledování vzorové hodiny",
+            "organizer": "ZŠ Eden",
+            "contact": "Matejzík Filip a p.Hodbot"
+          }
+        ],
+        "2026-05-21": [
+          {
+            "time": "08:00-15:00",
+            "activity": "2x45min školy",
+            "type": "Asistenční činnost",
+            "organizer": "CSR",
+            "contact": "Dominika Dvořáková"
+          }
+        ],
+        "2026-05-22": [
+          {
+            "time": "08:00-15:00",
+            "activity": "Gymnastika (ZŠ Eden)",
+            "type": "Sledování vzorové hodiny",
+            "organizer": "ZŠ Eden",
+            "contact": "Matejzík Filip a p.Hodbot"
+          }
+        ],
+        "2026-05-25": [
+          {
+            "time": "12:30-14:00",
+            "activity": "NÁSLECH AJ/TV",
+            "type": "vyučování",
+            "organizer": "ZŠ EDEN",
+            "contact": "Andrea Žemličková/Marcela Hladíková"
+          },
+          {
+            "time": "10:00-15:00",
+            "activity": "Fan shop",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Tomáš Semen"
+          },
+          {
+            "time": "14:30-15:00",
+            "activity": "úklid okolí/odpadků, Praha 10",
+            "type": "Asistenční činnost",
+            "organizer": "CSR",
+            "contact": "Dominika Dvořáková"
+          }
+        ],
+        "2026-05-26": [
+          {
+            "time": "08:00-15:00",
+            "activity": "Fotbalové dovednosti",
+            "type": "Sledování vzorové hodiny",
+            "organizer": "SKS",
+            "contact": "Lukáš Kuhn"
+          }
+        ],
+        "2026-05-27": [
+          {
+            "time": "08:00-15:00",
+            "activity": "Fotbalové dovednosti",
+            "type": "Sledování vzorové hodiny",
+            "organizer": "SKS",
+            "contact": "Lukáš Kuhn"
+          }
+        ],
+        "2026-05-28": [
+          {
+            "time": "08:00-15:00",
+            "activity": "Gymnastika (ZŠ Eden)",
+            "type": "Sledování vzorové hodiny",
+            "organizer": "ZŠ Eden",
+            "contact": "Matejzík Filip a p.Hodbot"
+          }
+        ],
+        "2026-05-29": [
+          {
+            "time": "08:00-15:00",
+            "activity": "školy akce",
+            "type": "Asistenční činnost",
+            "organizer": "CSR",
+            "contact": "Dominika Dvořáková"
+          }
+        ]
+      },
+      "stats": {
+        "total_hours": 70.0,
+        "total_days": 10,
+        "activities_count": 14
+      }
+    },
+    "80fc575a": {
+      "name": "Ivana Benešová",
+      "school": "Profit",
+      "school_class": "2. ročník",
+      "category": "WU18",
+      "start": "2026-05-18",
+      "end": "2026-05-29",
+      "phone": "774336971",
+      "email": "iva.benesova08@gmail.com",
+      "schedule": {
+        "2026-05-18": [
+          {
+            "time": "10:00-15:00",
+            "activity": "Fan shop",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Tomáš Semen"
+          },
+          {
+            "time": "13:00-15:00",
+            "activity": "Atletika",
+            "type": "Sledování vzorové hodiny",
+            "organizer": "SKS",
+            "contact": "Robo Leitl"
+          }
+        ],
+        "2026-05-19": [
+          {
+            "time": "08:00-15:00",
+            "activity": "Mateřinka Cup",
+            "type": "Asistenční činnost",
+            "organizer": "CSR",
+            "contact": "Dominika Dvořáková"
+          }
+        ],
+        "2026-05-20": [
+          {
+            "time": "08:00-15:00",
+            "activity": "Gymnastika (ZŠ Eden)",
+            "type": "Sledování vzorové hodiny",
+            "organizer": "ZŠ Eden",
+            "contact": "Matejzík Filip a p.Hodbot"
+          }
+        ],
+        "2026-05-21": [
+          {
+            "time": "10:00-15:00",
+            "activity": "Fan shop",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Tomáš Semen"
+          },
+          {
+            "time": "13:00-15:00",
+            "activity": "Gymnastika (ZŠ Eden)",
+            "type": "Sledování vzorové hodiny",
+            "organizer": "ZŠ Eden",
+            "contact": "Matejzík Filip a p.Hodbot"
+          }
+        ],
+        "2026-05-22": [
+          {
+            "time": "08:00-15:00",
+            "activity": "Atletika",
+            "type": "Sledování vzorové hodiny",
+            "organizer": "SKS",
+            "contact": "Robo Leitl"
+          }
+        ],
+        "2026-05-25": [
+          {
+            "time": "08:00-15:00",
+            "activity": "nevidomí fanoušci prohlídka stadionu",
+            "type": "Asistenční činnost",
+            "organizer": "CSR",
+            "contact": "Dominika Dvořáková"
+          }
+        ],
+        "2026-05-26": [
+          {
+            "time": "08:00-09:00",
+            "activity": "Marketing a komunikace online",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Patrik Jíra"
+          },
+          {
+            "time": "09:00-10:00",
+            "activity": "Fyzioterapie",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Pisarčík"
+          },
+          {
+            "time": "10:00-11:00",
+            "activity": "Organizace zápasů",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": ""
+          },
+          {
+            "time": "11:00-12:00",
+            "activity": "Účetnictví",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Klára Soukupová"
+          },
+          {
+            "time": "12:00-13:00",
+            "activity": "Ekonomické vedení Slavie - controling",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Jan Čadílek"
+          },
+          {
+            "time": "13:00-14:00",
+            "activity": "Angličtina",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "John Daves"
+          },
+          {
+            "time": "14:00-15:00",
+            "activity": "Představení SK Slavia Praha",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Martin Hladík"
+          }
+        ],
+        "2026-05-27": [
+          {
+            "time": "08:00-09:00",
+            "activity": "Struktura SKS - z teorie do praxe",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Jan Procházka"
+          },
+          {
+            "time": "09:00-10:00",
+            "activity": "Propojení teorie a praxe v rámci obchodní korespondence, účetních dokladů, atd.",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Nečasová"
+          },
+          {
+            "time": "10:00-15:00",
+            "activity": "úklid okolí/odpadků, Praha 10",
+            "type": "Asistenční činnost",
+            "organizer": "CSR",
+            "contact": "Dominika Dvořáková"
+          }
+        ],
+        "2026-05-28": [
+          {
+            "time": "08:00-15:00",
+            "activity": "Gymnastika (ZŠ Eden)",
+            "type": "Sledování vzorové hodiny",
+            "organizer": "ZŠ Eden",
+            "contact": "Matejzík Filip a p.Hodbot"
+          }
+        ],
+        "2026-05-29": [
+          {
+            "time": "08:00-15:00",
+            "activity": "školy akce",
+            "type": "Asistenční činnost",
+            "organizer": "CSR",
+            "contact": "Dominika Dvořáková"
+          }
+        ]
+      },
+      "stats": {
+        "total_hours": 70.0,
+        "total_days": 10,
+        "activities_count": 20
+      }
+    },
+    "4a0427ea": {
+      "name": "Václav Hlavatý",
+      "school": "Profit",
+      "school_class": "2. ročník",
+      "category": "U17",
+      "start": "2026-05-18",
+      "end": "2026-05-29",
+      "phone": "",
+      "email": "",
+      "schedule": {
+        "2026-05-18": [
+          {
+            "time": "08:00-15:00",
+            "activity": "Atletika",
+            "type": "Sledování vzorové hodiny",
+            "organizer": "SKS",
+            "contact": "Robo Leitl"
+          }
+        ],
+        "2026-05-19": [
+          {
+            "time": "08:00-15:00",
+            "activity": "Mateřinka Cup",
+            "type": "Asistenční činnost",
+            "organizer": "CSR",
+            "contact": "Dominika Dvořáková"
+          }
+        ],
+        "2026-05-20": [
+          {
+            "time": "10:00-15:00",
+            "activity": "Fan shop",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Tomáš Semen"
+          },
+          {
+            "time": "13:00-15:00",
+            "activity": "Atletika",
+            "type": "Sledování vzorové hodiny",
+            "organizer": "SKS",
+            "contact": "Robo Leitl"
+          }
+        ],
+        "2026-05-21": [
+          {
+            "time": "10:00-15:00",
+            "activity": "Fan shop",
+            "type": "Asistenční činnost / výpomoc",
+            "organizer": "SKS",
+            "contact": "Tomáš Semen"
+          },
+          {
+            "time": "13:00-15:00",
+            "activity": "Gymnastika (ZŠ Eden)",
+            "type": "Sledování vzorové hodiny",
+            "organizer": "ZŠ Eden",
+            "contact": "Matejzík Filip a p.Hodbot"
+          }
+        ],
+        "2026-05-22": [
+          {
+            "time": "08:00-15:00",
+            "activity": "Gymnastika (ZŠ Eden)",
+            "type": "Sledování vzorové hodiny",
+            "organizer": "ZŠ Eden",
+            "contact": "Matejzík Filip a p.Hodbot"
+          }
+        ],
+        "2026-05-25": [
+          {
+            "time": "08:00-15:00",
+            "activity": "nevidomí fanoušci prohlídka stadionu",
+            "type": "Asistenční činnost",
+            "organizer": "CSR",
+            "contact": "Dominika Dvořáková"
+          }
+        ],
+        "2026-05-26": [
+          {
+            "time": "08:00-09:00",
+            "activity": "Marketing a komunikace online",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Patrik Jíra"
+          },
+          {
+            "time": "09:00-10:00",
+            "activity": "Fyzioterapie",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Pisarčík"
+          },
+          {
+            "time": "10:00-11:00",
+            "activity": "Organizace zápasů",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": ""
+          },
+          {
+            "time": "11:00-12:00",
+            "activity": "Účetnictví",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Klára Soukupová"
+          },
+          {
+            "time": "12:00-13:00",
+            "activity": "Ekonomické vedení Slavie - controling",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Jan Čadílek"
+          },
+          {
+            "time": "13:00-14:00",
+            "activity": "Angličtina",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "John Daves"
+          },
+          {
+            "time": "14:00-15:00",
+            "activity": "Představení SK Slavia Praha",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Martin Hladík"
+          }
+        ],
+        "2026-05-27": [
+          {
+            "time": "08:00-09:00",
+            "activity": "Struktura SKS - z teorie do praxe",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Jan Procházka"
+          },
+          {
+            "time": "09:00-10:00",
+            "activity": "Propojení teorie a praxe v rámci obchodní korespondence, účetních dokladů, atd.",
+            "type": "Absolvování přednášky",
+            "organizer": "SKS",
+            "contact": "Nečasová"
+          },
+          {
+            "time": "10:00-15:00",
+            "activity": "úklid okolí/odpadků, Praha 10",
+            "type": "Asistenční činnost",
+            "organizer": "CSR",
+            "contact": "Dominika Dvořáková"
+          }
+        ],
+        "2026-05-28": [
+          {
+            "time": "08:00-15:00",
+            "activity": "Atletika",
+            "type": "Sledování vzorové hodiny",
+            "organizer": "SKS",
+            "contact": "Robo Leitl"
+          }
+        ],
+        "2026-05-29": [
+          {
+            "time": "08:00-15:00",
+            "activity": "školy akce",
+            "type": "Asistenční činnost",
+            "organizer": "CSR",
+            "contact": "Dominika Dvořáková"
+          }
+        ]
+      },
+      "stats": {
+        "total_hours": 70.0,
+        "total_days": 10,
+        "activities_count": 20
+      }
+    }
+  }
+}
