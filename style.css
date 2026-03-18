@@ -1,0 +1,441 @@
+/* ── Reset & Base ─────────────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+    /* SK Slavia Praha brand colors */
+    --slavia-red: #CC0000;
+    --slavia-red-dark: #A00000;
+    --slavia-red-light: #E63333;
+    --slavia-white: #FFFFFF;
+    --slavia-dark: #1A1A1A;
+    --slavia-gold: #C8A850;
+
+    --bg: #F2F0ED;
+    --card-bg: #FFFFFF;
+    --text: #1A1A1A;
+    --text-muted: #6B6B6B;
+    --border: #D9D5D0;
+
+    /* Activity type colors */
+    --type-asistence: #BDD7EE;
+    --type-turnaj: #F8CBAD;
+    --type-vyucovani: #C6EFCE;
+    --type-prednaska: #D9E2F3;
+    --type-vzorova: #FCE4D6;
+    --type-volno: #F2F2F2;
+    --type-neaktivni: #D9D9D9;
+    --type-gap: #FF9999;
+}
+
+body {
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.5;
+}
+
+h1, h2, h3, .student-name, .stat-value, .btn {
+    font-family: "Oswald", "Arial Narrow", sans-serif;
+}
+
+.hidden { display: none !important; }
+
+/* ── Gate (login / error screen) ─────────────────────────────────────────── */
+#gate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: var(--slavia-dark);
+    background-image:
+        radial-gradient(ellipse at 50% 30%, rgba(204, 0, 0, 0.15) 0%, transparent 60%);
+}
+
+.gate-box {
+    text-align: center;
+    color: var(--slavia-white);
+    max-width: 420px;
+    padding: 2.5rem 2rem;
+}
+
+.gate-box .logo {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+    border: 3px solid var(--slavia-red);
+    filter: drop-shadow(0 4px 24px rgba(204, 0, 0, 0.4));
+}
+
+.gate-box h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    color: var(--slavia-white);
+    margin-bottom: 0.25rem;
+}
+
+.gate-subtitle {
+    font-family: "Oswald", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #888;
+    margin-bottom: 2rem;
+}
+
+.gate-error {
+    background: rgba(204, 0, 0, 0.12);
+    border: 1px solid var(--slavia-red);
+    border-radius: 8px;
+    padding: 1.25rem;
+}
+
+.gate-error p {
+    color: #FF6666;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.gate-error p:last-child { margin-bottom: 0; }
+
+/* ── Header ──────────────────────────────────────────────────────────────── */
+header {
+    background: var(--slavia-dark);
+    color: var(--slavia-white);
+    padding: 0.75rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header-logo {
+    height: 48px;
+    border-radius: 50%;
+}
+
+header h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    line-height: 1.2;
+}
+
+.subtitle {
+    font-family: "Oswald", sans-serif;
+    font-size: 0.75rem;
+    font-weight: 400;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #999;
+}
+
+.header-right { text-align: right; }
+
+.student-name {
+    display: block;
+    font-family: "Oswald", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+}
+
+.student-meta {
+    font-size: 0.8rem;
+    color: #999;
+}
+
+/* Red-white stripe under header */
+.header-stripe {
+    height: 4px;
+    background: linear-gradient(90deg,
+        var(--slavia-red) 0%, var(--slavia-red) 50%,
+        var(--slavia-white) 50%, var(--slavia-white) 100%);
+}
+
+/* ── Main ────────────────────────────────────────────────────────────────── */
+main {
+    max-width: 1100px;
+    margin: 1.5rem auto;
+    padding: 0 1rem;
+}
+
+/* ── Card ────────────────────────────────────────────────────────────────── */
+.card {
+    background: var(--card-bg);
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+    border-top: 3px solid var(--slavia-red);
+}
+
+.card h2 {
+    font-family: "Oswald", sans-serif;
+    font-size: 1.15rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    color: var(--slavia-dark);
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.card-header h2 { margin-bottom: 0; }
+
+/* ── Today section ───────────────────────────────────────────────────────── */
+.today-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid var(--border);
+}
+
+.today-item:last-child { border-bottom: none; }
+
+.today-time {
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    white-space: nowrap;
+    min-width: 90px;
+    color: var(--slavia-red-dark);
+    font-size: 1rem;
+}
+
+.today-activity { font-weight: 500; }
+
+.today-detail {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+.today-current {
+    background: #FFF5F5;
+    border-left: 3px solid var(--slavia-red);
+    padding-left: 0.75rem;
+    margin-left: -0.75rem;
+    border-radius: 4px;
+}
+
+.today-none {
+    color: var(--text-muted);
+    font-style: italic;
+    padding: 1rem 0;
+}
+
+/* ── Schedule table ──────────────────────────────────────────────────────── */
+.schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.85rem;
+}
+
+.schedule-table th,
+.schedule-table td {
+    padding: 0.5rem 0.75rem;
+    border: 1px solid var(--border);
+    text-align: left;
+    vertical-align: top;
+}
+
+.schedule-table th {
+    background: var(--slavia-red);
+    color: var(--slavia-white);
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 0.8rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    position: sticky;
+    top: 0;
+}
+
+.schedule-table .day-header {
+    background: var(--slavia-dark);
+    color: var(--slavia-white);
+}
+
+.schedule-table .day-header td {
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+    letter-spacing: 0.03em;
+    padding: 0.6rem 0.75rem;
+}
+
+.activity-pill {
+    display: inline-block;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    margin-bottom: 0.25rem;
+}
+
+.type-asistence { background: var(--type-asistence); }
+.type-turnaj { background: var(--type-turnaj); }
+.type-vyucovani { background: var(--type-vyucovani); }
+.type-prednaska { background: var(--type-prednaska); }
+.type-vzorova { background: var(--type-vzorova); }
+.type-volno { background: var(--type-volno); color: var(--text-muted); }
+.type-default { background: #eee; }
+
+/* ── Stats ───────────────────────────────────────────────────────────────── */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 1rem;
+}
+
+.stat-box {
+    text-align: center;
+    padding: 1rem;
+    background: var(--bg);
+    border-radius: 8px;
+    border-bottom: 3px solid var(--slavia-red);
+}
+
+.stat-value {
+    font-family: "Oswald", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--slavia-red);
+}
+
+.stat-label {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin-top: 0.25rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+/* ── Buttons ─────────────────────────────────────────────────────────────── */
+.actions { display: flex; gap: 0.5rem; }
+
+.btn {
+    font-family: "Oswald", sans-serif;
+    padding: 0.5rem 1.25rem;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+
+.btn:hover { opacity: 0.85; transform: translateY(-1px); }
+
+.btn-primary {
+    background: var(--slavia-red);
+    color: var(--slavia-white);
+}
+
+.btn-primary:hover {
+    background: var(--slavia-red-dark);
+}
+
+.btn-secondary {
+    background: var(--slavia-dark);
+    color: var(--slavia-white);
+}
+
+.btn-secondary:hover {
+    background: #333;
+}
+
+/* ── Footer ──────────────────────────────────────────────────────────────── */
+footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    color: var(--text-muted);
+    font-size: 0.8rem;
+    border-top: 1px solid var(--border);
+    margin-top: 1rem;
+}
+
+.footer-logo {
+    height: 40px;
+    opacity: 0.3;
+    margin-bottom: 0.75rem;
+}
+
+.footer-club {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-top: 0.25rem;
+    color: #aaa;
+}
+
+/* ── Print ────────────────────────────────────────────────────────────────── */
+@media print {
+    .header-stripe, .actions, #today-section, .stats-grid, footer { display: none; }
+    body { background: #fff; }
+    header {
+        background: #fff !important;
+        color: #000 !important;
+        border-bottom: 3px solid var(--slavia-red);
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+    header h1, .subtitle, .student-name, .student-meta { color: #000 !important; }
+    .card {
+        box-shadow: none;
+        border: 1px solid #ddd;
+        break-inside: avoid;
+        border-top-color: var(--slavia-red);
+    }
+    .schedule-table th {
+        background: var(--slavia-red) !important;
+        color: #fff !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+    .schedule-table .day-header {
+        background: #eee !important;
+        color: #000 !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+    .schedule-table .day-header td { color: #000 !important; }
+    .activity-pill { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+}
+
+/* ── Responsive ──────────────────────────────────────────────────────────── */
+@media (max-width: 600px) {
+    header { padding: 0.75rem 1rem; }
+    header h1 { font-size: 1.1rem; }
+    .header-logo { height: 36px; }
+    main { padding: 0 0.5rem; }
+    .card { padding: 1rem; border-radius: 8px; }
+    .card-header { flex-direction: column; align-items: flex-start; }
+    .schedule-table { font-size: 0.75rem; }
+    .schedule-table th, .schedule-table td { padding: 0.35rem 0.5rem; }
+    .stats-grid { grid-template-columns: repeat(2, 1fr); }
+    .gate-box .logo { width: 130px; }
+    .gate-box h1 { font-size: 2rem; }
+}
