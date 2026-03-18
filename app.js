@@ -131,33 +131,57 @@ function renderToday(student) {
 /* ── Schedule table ──────────────────────────────────────────────────────── */
 
 function renderSchedule(student) {
-    const container = document.getElementById("schedule-table");
+    const tableContainer = document.getElementById("schedule-table");
+    const cardsContainer = document.getElementById("schedule-cards");
     const dates = Object.keys(student.schedule).sort();
 
     if (dates.length === 0) {
-        container.innerHTML = '<p class="today-none">Zatim neni rozvrh k dispozici.</p>';
+        tableContainer.innerHTML = '<p class="today-none">Zatim neni rozvrh k dispozici.</p>';
         return;
     }
 
-    let html = '<table class="schedule-table"><thead><tr>';
-    html += "<th>Cas</th><th>Cinnost</th><th>Organizator</th><th>Kontakt</th>";
-    html += "</tr></thead><tbody>";
+    // Desktop: table view
+    let table = '<table class="schedule-table"><thead><tr>';
+    table += "<th>Cas</th><th>Cinnost</th><th>Organizator</th><th>Kontakt</th>";
+    table += "</tr></thead><tbody>";
+
+    // Mobile: card view
+    let cards = "";
 
     for (const dateStr of dates) {
-        html += `<tr class="day-header"><td colspan="4">${formatDateLong(dateStr)}</td></tr>`;
+        const dayLabel = formatDateLong(dateStr);
+
+        table += `<tr class="day-header"><td colspan="4">${dayLabel}</td></tr>`;
+        cards += `<div class="mobile-day-header">${dayLabel}</div>`;
+
         for (const item of student.schedule[dateStr]) {
             const cls = activityTypeClass(item.type);
-            html += `<tr>
+
+            table += `<tr>
                 <td><strong>${item.time}</strong></td>
                 <td><span class="activity-pill ${cls}">${item.activity}</span></td>
                 <td>${item.organizer || ""}</td>
                 <td>${item.contact || ""}</td>
             </tr>`;
+
+            cards += `<div class="mobile-activity">
+                <div class="mobile-activity-time">${item.time}</div>
+                <div class="mobile-activity-name">
+                    <span class="activity-pill ${cls}">${item.activity}</span>
+                </div>
+                <div class="mobile-activity-meta">
+                    ${item.organizer ? `<span>Organizator: ${item.organizer}</span>` : ""}
+                    ${item.contact ? `<span>Kontakt: ${item.contact}</span>` : ""}
+                </div>
+            </div>`;
         }
     }
 
-    html += "</tbody></table>";
-    container.innerHTML = html;
+    table += "</tbody></table>";
+
+    tableContainer.innerHTML = table;
+    cardsContainer.className = "schedule-cards";
+    cardsContainer.innerHTML = cards;
 }
 
 /* ── Stats ───────────────────────────────────────────────────────────────── */
