@@ -29,58 +29,87 @@
 ### 4. Excel s přístupovými odkazy (`pristupy_studentu.xlsx`)
 - 18 studentů s klikacími hyperlinky na jejich osobní dashboard
 - Sloupce: Jméno, Škola, Telefon, Email, Token, Přístupový odkaz
+- ⚠️ Soubor obsahuje kontaktní údaje — uchovávat pouze interně, nesdílet veřejně
 
 ### 5. Dokumentace
 - `CLAUDE.md` — technický průvodce pro budoucí instance Claude Code
+- `STATUS.md` — tento soubor, přehled stavu projektu
+
+### 6. Bezpečnost — Úroveň 1 ✅ (2026-03-19)
+- **Odstraněny telefony a emaily z `data.json`** — kontaktní údaje zůstaly pouze v interním `pristupy_studentu.xlsx`
+- Veřejně přístupný `data.json` nyní obsahuje jen: jméno, škola, třída, kategorie, rozvrh, statistiky
+- Aktualizován `rozvrh_praxe.py` — budoucí exporty automaticky vynechají kontaktní pole
 
 ---
 
 ## Co zbývá udělat
 
-### Vysoká priorita
-- [ ] **Upřesnit termíny činností** — řada aktivit v "Program činností" nemá potvrzený termín; je potřeba je domluvit s organizátory (ZŠ Eden, CSR, SKS aj.)
-- [ ] **Doplnit repre kolize** — upřesnit termíny reprezentačních výjezdů U16–U20 a WU18 a zadat je do Excelu
-- [ ] **Doplnit kontaktní údaje studentů** — většina studentů ze SOŠ Jarov nemá telefon ani email
-- [ ] **Aktualizovat rozvrh** — po doplnění dat znovu spustit `python3 rozvrh_praxe.py "Praxe 2026.xlsx"` a pushnout nový `data.json`
+### Vysoká priorita — data a obsah
+- [ ] **Upřesnit termíny činností** — řada aktivit v "Program činností" nemá potvrzený termín; domluvit s organizátory (ZŠ Eden, CSR, SKS aj.)
+- [ ] **Doplnit repre kolize** — upřesnit termíny reprezentačních výjezdů U16–U20 a WU18 a zadat do Excelu
+- [ ] **Aktualizovat rozvrh** — po doplnění dat spustit skript a pushnout nový `data.json`
 
-### Střední priorita
-- [ ] **Distribuce odkazů studentům** — rozeslat individuální URL odkazy (z `pristupy_studentu.xlsx`) emailem nebo přes skupinový chat
+### Střední priorita — distribuce
+- [ ] **Doplnit emaily studentů** — zejména SOŠ Jarov (potřeba pro Úroveň 2 bezpečnosti a pro rozesílání odkazů)
+- [ ] **Rozeslat individuální URL odkazy** studentům (z `pristupy_studentu.xlsx`) emailem nebo přes skupinový chat
 - [ ] **Testování na reálných mobilech** — ověřit portál na iOS Safari a Android Chrome
-- [ ] **Vlastní doména** — zvážit CNAME pro GitHub Pages (např. `praxe.skslavia.cz`) místo `jirka-lang.github.io`
+
+### Bezpečnost — Úroveň 2 (doporučeno před spuštěním)
+- [ ] **Přesunout hosting na Cloudflare Pages** (propojení s GitHub repo, zdarma)
+- [ ] **Zapnout Cloudflare Access** — ochrana portálu přihlášením přes email + jednorázový PIN kód
+- [ ] **Přidat emaily studentů** do povolené skupiny v Cloudflare Access
+- *Prerekvizita: účet na Cloudflare + emaily studentů*
 
 ### Nízká priorita / nice-to-have
-- [ ] **Push notifikace** — upozornění na změny rozvrhu (vyžaduje backend)
-- [ ] **Automatický refresh dat** — GitHub Actions workflow pro automatický rebuild po push do Excelu
-- [ ] **Admin rozhraní** — webový formulář pro editaci činností bez nutnosti otevírat Excel
+- [ ] Vlastní doména (např. `praxe.skslavia.cz`) místo `jirka-lang.github.io`
+- [ ] GitHub Actions workflow pro automatický rebuild po změně Excelu
+- [ ] Admin rozhraní pro editaci bez Excelu
 
 ---
 
 ## Jak aktualizovat rozvrh (workflow)
 
-```
-1. Upravit data v "Praxe 2026.xlsx" (listy Program činností / DBF studenti)
-2. Uložit Excel
-3. Spustit:
-   cd "/Users/jirizemlicka/Library/Mobile Documents/com~apple~CloudDocs/AJA_AI_SLAVIE"
-   python3 rozvrh_praxe.py "Praxe 2026.xlsx"
-4. Zkopírovat výstup do webu:
-   cp data.json web/
-5. Pushnout:
-   cd web && git add data.json && git commit -m "Aktualizace rozvrhu" && git push
-6. GitHub Pages se automaticky aktualizuje (~30s)
+```bash
+# 1. Upravit data v Excelu (listy "Program činností" / "DBF studenti"), uložit
+
+# 2. Spustit skript
+cd "/Users/jirizemlicka/Library/Mobile Documents/com~apple~CloudDocs/AJA_AI_SLAVIE"
+python3 rozvrh_praxe.py "Praxe 2026.xlsx"
+
+# 3. Pushnout
+cd web
+git add data.json
+git commit -m "Aktualizace rozvrhu"
+git push
+
+# GitHub Pages se automaticky aktualizuje (~30s)
 ```
 
 ---
 
 ## Přehled souborů
 
-| Soubor | Účel | Umístění |
-|--------|------|----------|
-| `Praxe 2026.xlsx` | Zdrojová data (činnosti + studenti) | `/AJA_AI_SLAVIE/` |
-| `rozvrh_praxe.py` | Generátor rozvrhu a data.json | `/AJA_AI_SLAVIE/` |
-| `web/index.html` | Hlavní HTML stránka portálu | GitHub repo |
-| `web/app.js` | Frontend logika (auth, rendering) | GitHub repo |
-| `web/style.css` | Styly + responsive + print | GitHub repo |
-| `web/data.json` | Generovaná data pro frontend | GitHub repo |
-| `web/pristupy_studentu.xlsx` | Excel s přístupovými odkazy | GitHub repo |
-| `web/CLAUDE.md` | Technická dokumentace pro AI | GitHub repo |
+| Soubor | Účel | Umístění | Veřejný? |
+|--------|------|----------|----------|
+| `Praxe 2026.xlsx` | Zdrojová data (činnosti + studenti) | `/AJA_AI_SLAVIE/` | Ne |
+| `rozvrh_praxe.py` | Generátor rozvrhu a data.json | `/AJA_AI_SLAVIE/` | GitHub |
+| `web/index.html` | Hlavní HTML stránka portálu | GitHub repo | Ano |
+| `web/app.js` | Frontend logika (auth, rendering) | GitHub repo | Ano |
+| `web/style.css` | Styly + responsive + print | GitHub repo | Ano |
+| `web/data.json` | Generovaná data pro frontend (bez kontaktů) | GitHub repo | Ano |
+| `web/pristupy_studentu.xlsx` | Excel s přístupovými odkazy a kontakty | GitHub repo | ⚠️ Ano* |
+| `web/CLAUDE.md` | Technická dokumentace pro AI | GitHub repo | Ano |
+| `STATUS.md` | Tento soubor | `/AJA_AI_SLAVIE/` + GitHub | Ano |
+
+*\* `pristupy_studentu.xlsx` je aktuálně veřejně dostupný na GitHub — zvážit přesun mimo repo nebo přejít na Úroveň 2.*
+
+---
+
+## Bezpečnostní stav
+
+| Úroveň | Popis | Stav |
+|--------|-------|------|
+| 0 | Tokeny v URL (základní ochrana) | ✅ Hotovo |
+| 1 | Kontakty odstraněny z data.json | ✅ Hotovo (2026-03-19) |
+| 2 | Cloudflare Access (email + PIN) | ⏳ Naplánováno |
+| 3 | Backend API (data neveřejná) | 💡 Budoucnost |
