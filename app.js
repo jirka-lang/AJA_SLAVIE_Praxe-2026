@@ -121,7 +121,6 @@ function renderToday(student) {
                     <span class="activity-pill ${activityTypeClass(item.type)}">${item.activity}</span>
                 </div>
                 ${item.organizer ? `<div class="today-detail">Organizator: ${item.organizer}</div>` : ""}
-                ${item.contact ? `<div class="today-detail">Kontakt: ${item.contact}</div>` : ""}
             </div>
         </div>`;
     }
@@ -142,7 +141,7 @@ function renderSchedule(student) {
 
     // Desktop: table view
     let table = '<table class="schedule-table"><thead><tr>';
-    table += "<th>Cas</th><th>Cinnost</th><th>Organizator</th><th>Kontakt</th>";
+    table += "<th>Cas</th><th>Cinnost</th><th>Organizator</th>";
     table += "</tr></thead><tbody>";
 
     // Mobile: card view
@@ -151,7 +150,7 @@ function renderSchedule(student) {
     for (const dateStr of dates) {
         const dayLabel = formatDateLong(dateStr);
 
-        table += `<tr class="day-header"><td colspan="4">${dayLabel}</td></tr>`;
+        table += `<tr class="day-header"><td colspan="3">${dayLabel}</td></tr>`;
         cards += `<div class="mobile-day-header">${dayLabel}</div>`;
 
         for (const item of student.schedule[dateStr]) {
@@ -161,7 +160,6 @@ function renderSchedule(student) {
                 <td><strong>${item.time}</strong></td>
                 <td><span class="activity-pill ${cls}">${item.activity}</span></td>
                 <td>${item.organizer || ""}</td>
-                <td>${item.contact || ""}</td>
             </tr>`;
 
             cards += `<div class="mobile-activity">
@@ -171,7 +169,6 @@ function renderSchedule(student) {
                 </div>
                 <div class="mobile-activity-meta">
                     ${item.organizer ? `<span>Organizator: ${item.organizer}</span>` : ""}
-                    ${item.contact ? `<span>Kontakt: ${item.contact}</span>` : ""}
                 </div>
             </div>`;
         }

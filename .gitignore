@@ -1,0 +1,15 @@
+# Database
+*.db
+*.db-wal
+*.db-shm
+praxe.db
+
+# Student access file with contacts (private)
+pristupy_studentu.xlsx
+
+# OS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
