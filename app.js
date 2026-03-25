@@ -1,4 +1,7 @@
-/* ── Praxe 2026 – Studentsky portal ──────────────────────────────────────── */
+/* ── Praxe 2026 – Studentsky portal (live Supabase) ─────────────────────── */
+
+const SUPABASE_URL = "https://vudxgsnonafdlmivthlw.supabase.co";
+const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZ1ZHhnc25vbmFmZGxtaXZ0aGx3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzM4OTE5MjIsImV4cCI6MjA4OTQ2NzkyMn0.wxUxG0lNZI12X0k8pAmKek8OtvBuDPThxmRLBtQvMNM";
 
 const CZ_DAYS = ["Ne", "Po", "Ut", "St", "Ct", "Pa", "So"];
 const CZ_MONTHS = ["", "ledna", "unora", "brezna", "dubna", "kvetna",
@@ -40,23 +43,60 @@ async function init() {
     const params = new URLSearchParams(window.location.search);
     const token = params.get("t");
 
-    let data;
+    if (!token) {
+        showGate();
+        return;
+    }
+
     try {
-        const resp = await fetch("data.json");
+        // Volání Supabase RPC funkce — vrátí rozvrh přímo z databáze
+        const resp = await fetch(
+            `${SUPABASE_URL}/rest/v1/rpc/get_student_schedule`,
+            {
+                method: "POST",
+                headers: {
+                    "apikey": SUPABASE_ANON_KEY,
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify({ student_token: token }),
+            }
+        );
+
         if (!resp.ok) throw new Error("fetch failed");
-        data = await resp.json();
+
+        const data = await resp.json();
+
+        if (!data || !data.student) {
+            showGate();
+            return;
+        }
+
+        showDashboard(data);
     } catch (e) {
-        showGate();
-        return;
-    }
+        // Fallback na statický data.json (offline/backup)
+        try {
+            const resp = await fetch("data.json");
+            if (!resp.ok) throw new Error("fallback failed");
+            const fallbackData = await resp.json();
 
-    if (!token || !data.students[token]) {
-        showGate();
-        return;
-    }
+            if (!fallbackData.students[token]) {
+                showGate();
+                return;
+            }
 
-    const student = data.students[token];
-    showDashboard(student, data);
+            // Převeď starý formát na nový
+            const s = fallbackData.students[token];
+            showDashboard({
+                student: { name: s.name, school: s.school, school_class: s.school_class, category: s.category, start: s.start, end: s.end },
+                schedule: s.schedule,
+                stats: s.stats,
+                last_updated: fallbackData.last_updated,
+                period: fallbackData.period,
+            });
+        } catch {
+            showGate();
+        }
+    }
 }
 
 function showGate() {
@@ -64,9 +104,11 @@ function showGate() {
     document.getElementById("dashboard").classList.add("hidden");
 }
 
-function showDashboard(student, data) {
+function showDashboard(data) {
     document.getElementById("gate").classList.add("hidden");
     document.getElementById("dashboard").classList.remove("hidden");
+
+    const student = data.student;
 
     // Header
     document.getElementById("student-name").textContent = student.name;
@@ -76,24 +118,23 @@ function showDashboard(student, data) {
     // Last updated
     document.getElementById("last-updated").textContent = data.last_updated;
 
-    renderToday(student);
-    renderSchedule(student);
-    renderStats(student);
+    renderToday(data);
+    renderSchedule(data);
+    renderStats(data);
 }
 
 /* ── Today ───────────────────────────────────────────────────────────────── */
 
-function renderToday(student) {
+function renderToday(data) {
     const today = todayISO();
     const titleEl = document.getElementById("today-title");
     const contentEl = document.getElementById("today-content");
 
     titleEl.textContent = `Dnes – ${formatDateLong(today)}`;
 
-    const dayItems = student.schedule[today];
+    const dayItems = data.schedule[today];
     if (!dayItems || dayItems.length === 0) {
-        // Check if today is within practice period
-        if (today >= student.start && today <= student.end) {
+        if (today >= data.student.start && today <= data.student.end) {
             contentEl.innerHTML = '<p class="today-none">Dnes nemas zadnou naplanovnou cinnost.</p>';
         } else {
             contentEl.innerHTML = '<p class="today-none">Dnes nemas praxi.</p>';
@@ -129,10 +170,10 @@ function renderToday(student) {
 
 /* ── Schedule table ──────────────────────────────────────────────────────── */
 
-function renderSchedule(student) {
+function renderSchedule(data) {
     const tableContainer = document.getElementById("schedule-table");
     const cardsContainer = document.getElementById("schedule-cards");
-    const dates = Object.keys(student.schedule).sort();
+    const dates = Object.keys(data.schedule).sort();
 
     if (dates.length === 0) {
         tableContainer.innerHTML = '<p class="today-none">Zatim neni rozvrh k dispozici.</p>';
@@ -153,7 +194,7 @@ function renderSchedule(student) {
         table += `<tr class="day-header"><td colspan="3">${dayLabel}</td></tr>`;
         cards += `<div class="mobile-day-header">${dayLabel}</div>`;
 
-        for (const item of student.schedule[dateStr]) {
+        for (const item of data.schedule[dateStr]) {
             const cls = activityTypeClass(item.type);
 
             table += `<tr>
@@ -183,9 +224,9 @@ function renderSchedule(student) {
 
 /* ── Stats ───────────────────────────────────────────────────────────────── */
 
-function renderStats(student) {
+function renderStats(data) {
     const container = document.getElementById("stats");
-    const s = student.stats;
+    const s = data.stats;
 
     const items = [
         { value: s.total_hours + "h", label: "Celkem hodin" },
@@ -195,7 +236,7 @@ function renderStats(student) {
 
     // Count unique activity types
     const types = new Set();
-    for (const dayItems of Object.values(student.schedule)) {
+    for (const dayItems of Object.values(data.schedule)) {
         for (const item of dayItems) types.add(item.type);
     }
     items.push({ value: types.size, label: "Typu cinnosti" });
